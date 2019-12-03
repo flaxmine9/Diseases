@@ -41,7 +41,6 @@ namespace Classification
 
             return pipeline;
         }
-
         public static IEstimator<ITransformer> BuildAndTrainModel(IDataView trainingDataView, IEstimator<ITransformer> pipeline, double testFraction)
         {
             var trainingPipeline = pipeline.Append(_mlContext.MulticlassClassification.Trainers.SdcaMaximumEntropy("Label", "Features")
@@ -57,7 +56,6 @@ namespace Classification
 
             return trainingPipeline;
         }
-
         public static void Evaluate()
         {
             var testMetrics = _mlContext.MulticlassClassification.Evaluate(_trainedModel.Transform(testData));
@@ -75,7 +73,6 @@ namespace Classification
 
             SaveModelAsFile(_mlContext, predictionPipelineSchema, _trainedModel);
         }
-
         public static void PredictDisease(Diseases diseases)
         {
             ITransformer loadedModel = _mlContext.Model.Load(_modelPath, out predictionPipelineSchema);
@@ -86,7 +83,6 @@ namespace Classification
 
             Console.WriteLine($"=============== Single Prediction - Result: {prediction.Disease} ===============");
         }
-
         private static void SaveModelAsFile(MLContext mlContext, DataViewSchema trainingDataViewSchema, ITransformer trainedModel)
         {
             mlContext.Model.Save(trainedModel, trainingDataViewSchema, _modelPath);
