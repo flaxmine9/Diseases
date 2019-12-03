@@ -32,7 +32,6 @@ namespace TranslateYandex
             }
             return "";
         }
-
         public List<Diseases> TranslateDataSet(List<Diseases> list)
         {
             List<Diseases> translatedDiseases = new List<Diseases>();
