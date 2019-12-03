@@ -1,0 +1,593 @@
+Disease;Sym1;Sym2;Sym3;Sym4;Sym5;Sym6
+Flu;weak muscle pain;coughing;malaise;headache;high temperature;a sore throat
+Flu;weak muscle pain;high temperature;a sore throat;malaise;headache;coughing
+Flu;high temperature;malaise;headache;coughing;a sore throat;weak muscle pain
+Flu;coughing;headache;high temperature;malaise;a sore throat;weak muscle pain
+Flu;weak muscle pain;malaise;coughing;headache;high temperature;a sore throat
+Flu;coughing;weak muscle pain;headache;a sore throat;high temperature;malaise
+Flu;coughing;headache;weak muscle pain;high temperature;a sore throat;malaise
+Flu;malaise;coughing;high temperature;headache;weak muscle pain;a sore throat
+Flu;temperature;headache;malaise;cough;muscle pain;hurt glatat
+Flu;malaise;muscle pain;hurt glatat;cough;headache;temperature
+Flu;temperature;hurt glatat;cough;malaise;headache;muscle pain
+Flu;cough;hurt glatat;headache;temperature;malaise;muscle pain
+Flu;muscle pain;malaise;cough;headache;temperature;hurt glatat
+Flu;hurt glatat;malaise;cough;headache;temperature;muscle pain
+Flu;muscle pain;headache;hurt glatat;temperature;cough;malaise
+Flu;muscle pain;headache;cough;hurt glatat;malaise;temperature
+Flu;chills;headache;heat;cough;joint pain;runny nose
+Flu;cough;heat;runny nose;chills;joint pain;headache
+Flu;headache;chills;heat;cough;joint pain;runny nose
+Flu;runny nose;heat;headache;joint pain;chills;cough
+Flu;cough;headache;runny nose;heat;chills;joint pain
+Flu;joint pain;chills;headache;heat;runny nose;cough
+Flu;chills;headache;heat;joint pain;cough;runny nose
+Flu;joint pain;runny nose;chills;headache;heat;cough
+Flu;headache;cramps;muscle pain;headache with vomiting;shortness of breath;temperature
+Flu;headache with vomiting;shortness of breath;headache;cramps;muscle pain;temperature
+Flu;temperature;headache;muscle pain;headache with vomiting;cramps;shortness of breath
+Flu;temperature;muscle pain;headache;headache with vomiting;shortness of breath;cramps
+Flu;headache with vomiting;cramps;headache;temperature;shortness of breath;muscle pain
+Flu;shortness of breath;cramps;headache with vomiting;temperature;headache;muscle pain
+Flu;headache with vomiting;temperature;shortness of breath;cramps;muscle pain;headache
+Flu;headache with vomiting;headache;shortness of breath;cramps;muscle pain;temperature
+Flu;cough;heat;pokrasnenie eyes;itchy eyes;fatigue;throat
+Flu;throat;heat;itchy eyes;cough;pokrasnenie eyes;fatigue
+Flu;fatigue;pokrasnenie eyes;cough;throat;heat;itchy eyes
+Flu;fatigue;itchy eyes;throat;heat;cough;pokrasnenie eyes
+Flu;itchy eyes;heat;throat;pokrasnenie eyes;fatigue;cough
+Flu;itchy eyes;fatigue;cough;heat;throat;pokrasnenie eyes
+Flu;pokrasnenie eyes;itchy eyes;heat;throat;cough;fatigue
+Flu;fatigue;throat;heat;cough;itchy eyes;pokrasnenie eyes
+Meningitis;severe headache;double vision;sudden fever;vomiting;skin rash;abdominal pain
+Meningitis;sudden fever;abdominal pain;skin rash;vomiting;severe headache;double vision
+Meningitis;double vision;abdominal pain;skin rash;vomiting;sudden fever;severe headache
+Meningitis;skin rash;vomiting;abdominal pain;double vision;severe headache;sudden fever
+Meningitis;severe headache;double vision;vomiting;sudden fever;abdominal pain;skin rash
+Meningitis;vomiting;severe headache;sudden fever;skin rash;abdominal pain;double vision
+Meningitis;abdominal pain;vomiting;sudden fever;double vision;skin rash;severe headache
+Meningitis;double vision;abdominal pain;severe headache;sudden fever;skin rash;vomiting
+Meningitis;stomach hurts;fever;seeing double;nausea;headache;ISO
+Meningitis;ISO;fever;nausea;seeing double;headache;stomach hurts
+Meningitis;nausea;headache;fever;stomach hurts;seeing double;ISO
+Meningitis;nausea;seeing double;headache;ISO;stomach hurts;fever
+Meningitis;stomach hurts;nausea;ISO;headache;seeing double;fever
+Meningitis;stomach hurts;headache;fever;nausea;ISO;seeing double
+Meningitis;ISO;seeing double;fever;stomach hurts;nausea;headache
+Meningitis;nausea;seeing double;fever;ISO;stomach hurts;headache
+Meningitis;vomiting;strong photosensitivity;stiff neck;the inability to straighten legs;headache;skin rash does not fade
+Meningitis;stiff neck;vomiting;strong photosensitivity;skin rash does not fade;headache;the inability to straighten legs
+Meningitis;stiff neck;strong photosensitivity;the inability to straighten legs;vomiting;skin rash does not fade;headache
+Meningitis;skin rash does not fade;the inability to straighten legs;strong photosensitivity;stiff neck;headache;vomiting
+Meningitis;vomiting;stiff neck;skin rash does not fade;the inability to straighten legs;strong photosensitivity;headache
+Meningitis;skin rash does not fade;headache;strong photosensitivity;vomiting;the inability to straighten legs;stiff neck
+Meningitis;headache;stiff neck;the inability to straighten legs;strong photosensitivity;vomiting;skin rash does not fade
+Meningitis;vomiting;strong photosensitivity;stiff neck;headache;skin rash does not fade;the inability to straighten legs
+Meningitis;high temperature;confusion;can't straighten leg;the intractability of the occipital muscles;skin rash;headache
+Meningitis;can't straighten leg;the intractability of the occipital muscles;skin rash;high temperature;headache;confusion
+Meningitis;the intractability of the occipital muscles;skin rash;high temperature;can't straighten leg;headache;confusion
+Meningitis;high temperature;can't straighten leg;skin rash;headache;confusion;the intractability of the occipital muscles
+Meningitis;the intractability of the occipital muscles;can't straighten leg;high temperature;confusion;headache;skin rash
+Meningitis;confusion;headache;high temperature;skin rash;can't straighten leg;the intractability of the occipital muscles
+Meningitis;skin rash;headache;confusion;high temperature;can't straighten leg;the intractability of the occipital muscles
+Meningitis;skin rash;the intractability of the occipital muscles;confusion;high temperature;headache;can't straighten leg
+"bronchial asthma ";shortness of breath;Dry cough;weakness;Shallow breathing;The position orthopnea;Wheezing
+"bronchial asthma ";Wheezing;Shallow breathing;Dry cough;shortness of breath;weakness;The position orthopnea
+"bronchial asthma ";weakness;Wheezing;Dry cough;shortness of breath;Shallow breathing;The position orthopnea
+"bronchial asthma ";Dry cough;shortness of breath;The position orthopnea;Wheezing;weakness;Shallow breathing
+"bronchial asthma ";Wheezing;Dry cough;shortness of breath;Shallow breathing;weakness;The position orthopnea
+"bronchial asthma ";Dry cough;Shallow breathing;weakness;Wheezing;The position orthopnea;shortness of breath
+"bronchial asthma ";shortness of breath;Dry cough;The position orthopnea;Shallow breathing;weakness;Wheezing
+"bronchial asthma ";Dry cough;The position orthopnea;Shallow breathing;weakness;Wheezing;shortness of breath
+"bronchial asthma ";dizziness;Blueness of the skin;cough;headache;weakness;Palpitations
+"bronchial asthma ";Palpitations;dizziness;Blueness of the skin;headache;weakness;cough
+"bronchial asthma ";headache;cough;Blueness of the skin;weakness;Palpitations;dizziness
+"bronchial asthma ";dizziness;Palpitations;weakness;headache;Blueness of the skin;cough
+"bronchial asthma ";Palpitations;dizziness;cough;weakness;Blueness of the skin;headache
+"bronchial asthma ";dizziness;headache;Blueness of the skin;cough;weakness;Palpitations
+"bronchial asthma ";cough;dizziness;headache;Palpitations;Blueness of the skin;weakness
+"bronchial asthma ";headache;weakness;Blueness of the skin;Palpitations;dizziness;cough
+"bronchial asthma ";small bluish discoloration of the skin;palpitation of the heart;suffocation;headache;shortness of breath;wheezing
+"bronchial asthma ";small bluish discoloration of the skin;suffocation;headache;wheezing;shortness of breath;palpitation of the heart
+"bronchial asthma ";wheezing;small bluish discoloration of the skin;suffocation;shortness of breath;headache;palpitation of the heart
+"bronchial asthma ";wheezing;small bluish discoloration of the skin;palpitation of the heart;shortness of breath;headache;suffocation
+"bronchial asthma ";headache;small bluish discoloration of the skin;wheezing;palpitation of the heart;shortness of breath;suffocation
+"bronchial asthma ";suffocation;wheezing;small bluish discoloration of the skin;headache;shortness of breath;palpitation of the heart
+"bronchial asthma ";headache;wheezing;palpitation of the heart;suffocation;shortness of breath;small bluish discoloration of the skin
+"bronchial asthma ";shortness of breath;suffocation;wheezing;small bluish discoloration of the skin;headache;palpitation of the heart
+"bronchial asthma ";shortness of breath;weakness;cough;headache;wheezing;palpitation of the heart
+"bronchial asthma ";weakness;headache;palpitation of the heart;cough;wheezing;shortness of breath
+"bronchial asthma ";palpitation of the heart;cough;shortness of breath;headache;weakness;wheezing
+"bronchial asthma ";palpitation of the heart;cough;wheezing;headache;shortness of breath;weakness
+"bronchial asthma ";headache;cough;weakness;wheezing;shortness of breath;palpitation of the heart
+"bronchial asthma ";weakness;cough;shortness of breath;headache;wheezing;palpitation of the heart
+"bronchial asthma ";shortness of breath;weakness;wheezing;headache;palpitation of the heart;cough
+"bronchial asthma ";wheezing;cough;shortness of breath;headache;palpitation of the heart;weakness
+angioedema;swelling in the lips;swelling in the cheeks;hoarseness;Dry cough;breathing labored;vomiting
+angioedema;Dry cough;vomiting;swelling in the lips;swelling in the cheeks;hoarseness;breathing labored
+angioedema;vomiting;swelling in the cheeks;hoarseness;Dry cough;swelling in the lips;breathing labored
+angioedema;hoarseness;breathing labored;vomiting;swelling in the lips;Dry cough;swelling in the cheeks
+angioedema;swelling in the lips;vomiting;breathing labored;hoarseness;Dry cough;swelling in the cheeks
+angioedema;vomiting;swelling in the lips;breathing labored;swelling in the cheeks;hoarseness;Dry cough
+angioedema;vomiting;swelling in the lips;hoarseness;swelling in the cheeks;breathing labored;Dry cough
+angioedema;Dry cough;swelling in the lips;vomiting;swelling in the cheeks;breathing labored;hoarseness
+angioedema;hoarseness;troubled breathing;swelling in the cheeks;swelling in the lips;abdominal pain;vomiting
+angioedema;abdominal pain;swelling in the cheeks;swelling in the lips;vomiting;hoarseness;troubled breathing
+angioedema;abdominal pain;swelling in the cheeks;troubled breathing;hoarseness;swelling in the lips;vomiting
+angioedema;swelling in the lips;vomiting;swelling in the cheeks;troubled breathing;abdominal pain;hoarseness
+angioedema;troubled breathing;swelling in the lips;swelling in the cheeks;abdominal pain;vomiting;hoarseness
+angioedema;hoarseness;vomiting;swelling in the lips;abdominal pain;troubled breathing;swelling in the cheeks
+angioedema;hoarseness;abdominal pain;vomiting;swelling in the cheeks;troubled breathing;swelling in the lips
+angioedema;hoarseness;vomiting;troubled breathing;abdominal pain;swelling in the cheeks;swelling in the lips
+angioedema;swelling in the area of language;stomach hurts;cough;porajenie of the oral mucosa;nausea;hoarse voice
+angioedema;nausea;hoarse voice;porajenie of the oral mucosa;cough;stomach hurts;swelling in the area of language
+angioedema;porajenie of the oral mucosa;cough;nausea;stomach hurts;swelling in the area of language;hoarse voice
+angioedema;porajenie of the oral mucosa;nausea;stomach hurts;swelling in the area of language;hoarse voice;cough
+angioedema;stomach hurts;swelling in the area of language;porajenie of the oral mucosa;hoarse voice;nausea;cough
+angioedema;hoarse voice;swelling in the area of language;stomach hurts;nausea;cough;porajenie of the oral mucosa
+angioedema;porajenie of the oral mucosa;nausea;hoarse voice;cough;stomach hurts;swelling in the area of language
+angioedema;hoarse voice;nausea;swelling in the area of language;cough;porajenie of the oral mucosa;stomach hurts
+angioedema;cough;swelling of the lips;abdominal pain;hoarseness;swelling of the cheeks;heavy breathing
+angioedema;cough;hoarseness;heavy breathing;swelling of the lips;swelling of the cheeks;abdominal pain
+angioedema;swelling of the lips;abdominal pain;hoarseness;swelling of the cheeks;cough;heavy breathing
+angioedema;hoarseness;cough;heavy breathing;swelling of the lips;abdominal pain;swelling of the cheeks
+angioedema;swelling of the lips;cough;hoarseness;swelling of the cheeks;heavy breathing;abdominal pain
+angioedema;abdominal pain;swelling of the cheeks;swelling of the lips;cough;hoarseness;heavy breathing
+angioedema;swelling of the cheeks;heavy breathing;swelling of the lips;hoarseness;abdominal pain;cough
+angioedema;hoarseness;abdominal pain;swelling of the lips;heavy breathing;swelling of the cheeks;cough
+heart failure;discomfort in the right upper quadrant;weakness;shortness of breath;cough;confusion;shortness of breath
+heart failure;shortness of breath;weakness;discomfort in the right upper quadrant;confusion;cough;shortness of breath
+heart failure;shortness of breath;cough;discomfort in the right upper quadrant;shortness of breath;weakness;confusion
+heart failure;confusion;shortness of breath;cough;discomfort in the right upper quadrant;weakness;shortness of breath
+heart failure;cough;shortness of breath;weakness;confusion;shortness of breath;discomfort in the right upper quadrant
+heart failure;weakness;confusion;shortness of breath;shortness of breath;discomfort in the right upper quadrant;cough
+heart failure;cough;weakness;shortness of breath;confusion;discomfort in the right upper quadrant;shortness of breath
+heart failure;discomfort in the right upper quadrant;confusion;shortness of breath;cough;shortness of breath;weakness
+heart failure;increased heartbeat;weakness;swelling;swelling in the lower legs;shortness of breath;dizziness
+heart failure;increased heartbeat;dizziness;weakness;swelling;shortness of breath;swelling in the lower legs
+heart failure;swelling;dizziness;weakness;swelling in the lower legs;shortness of breath;increased heartbeat
+heart failure;dizziness;weakness;shortness of breath;swelling in the lower legs;swelling;increased heartbeat
+heart failure;swelling in the lower legs;shortness of breath;swelling;dizziness;increased heartbeat;weakness
+heart failure;increased heartbeat;shortness of breath;swelling;swelling in the lower legs;weakness;dizziness
+heart failure;shortness of breath;dizziness;swelling in the lower legs;swelling;weakness;increased heartbeat
+heart failure;dizziness;swelling;weakness;swelling in the lower legs;shortness of breath;increased heartbeat
+heart failure;shortness of breath;swelling in the lower legs;fatigue;swelling in the abdomen;fatigue;shortness of breath
+heart failure;fatigue;swelling in the lower legs;swelling in the abdomen;shortness of breath;fatigue;shortness of breath
+heart failure;swelling in the lower legs;fatigue;fatigue;swelling in the abdomen;shortness of breath;shortness of breath
+heart failure;swelling in the abdomen;shortness of breath;shortness of breath;fatigue;fatigue;swelling in the lower legs
+heart failure;swelling in the lower legs;shortness of breath;shortness of breath;fatigue;swelling in the abdomen;fatigue
+heart failure;swelling in the abdomen;shortness of breath;swelling in the lower legs;fatigue;fatigue;shortness of breath
+heart failure;shortness of breath;swelling in the abdomen;fatigue;fatigue;shortness of breath;swelling in the lower legs
+heart failure;fatigue;swelling in the abdomen;fatigue;swelling in the lower legs;shortness of breath;shortness of breath
+heart failure;swelling in the lower legs;cough;edema;swelling in the abdomen;heartbeat;fatigue
+heart failure;cough;fatigue;heartbeat;swelling in the lower legs;swelling in the abdomen;edema
+heart failure;cough;edema;heartbeat;swelling in the lower legs;swelling in the abdomen;fatigue
+heart failure;cough;swelling in the abdomen;fatigue;swelling in the lower legs;edema;heartbeat
+heart failure;edema;swelling in the lower legs;swelling in the abdomen;heartbeat;cough;fatigue
+heart failure;swelling in the lower legs;heartbeat;swelling in the abdomen;cough;fatigue;edema
+heart failure;fatigue;swelling in the abdomen;edema;heartbeat;swelling in the lower legs;cough
+heart failure;swelling in the lower legs;fatigue;swelling in the abdomen;heartbeat;cough;edema
+myocardial infarction;pain behind the breastbone;pain in the hands;weakness;shortness of breath;anxiety;excessive sweating
+myocardial infarction;shortness of breath;anxiety;pain in the hands;excessive sweating;weakness;pain behind the breastbone
+myocardial infarction;shortness of breath;pain behind the breastbone;excessive sweating;pain in the hands;weakness;anxiety
+myocardial infarction;pain in the hands;pain behind the breastbone;weakness;shortness of breath;excessive sweating;anxiety
+myocardial infarction;pain behind the breastbone;anxiety;weakness;shortness of breath;pain in the hands;excessive sweating
+myocardial infarction;pain behind the breastbone;weakness;excessive sweating;anxiety;shortness of breath;pain in the hands
+myocardial infarction;shortness of breath;weakness;pain in the hands;anxiety;excessive sweating;pain behind the breastbone
+myocardial infarction;shortness of breath;excessive sweating;anxiety;pain behind the breastbone;weakness;pain in the hands
+myocardial infarction;headache;nausea;weakness;the rhythm of the heart;pain in the neck;dizziness
+myocardial infarction;weakness;pain in the neck;dizziness;headache;nausea;the rhythm of the heart
+myocardial infarction;the rhythm of the heart;headache;dizziness;nausea;weakness;pain in the neck
+myocardial infarction;weakness;nausea;pain in the neck;the rhythm of the heart;dizziness;headache
+myocardial infarction;weakness;headache;pain in the neck;the rhythm of the heart;nausea;dizziness
+myocardial infarction;nausea;the rhythm of the heart;pain in the neck;dizziness;headache;weakness
+myocardial infarction;dizziness;pain in the neck;headache;weakness;nausea;the rhythm of the heart
+myocardial infarction;headache;nausea;dizziness;weakness;pain in the neck;the rhythm of the heart
+myocardial infarction;pain in the neck;excessive sweating;pain in the shoulders;nausea;loss of consciousness;shortness of breath
+myocardial infarction;excessive sweating;shortness of breath;loss of consciousness;pain in the neck;pain in the shoulders;nausea
+myocardial infarction;loss of consciousness;nausea;excessive sweating;shortness of breath;pain in the neck;pain in the shoulders
+myocardial infarction;nausea;pain in the neck;excessive sweating;loss of consciousness;pain in the shoulders;shortness of breath
+myocardial infarction;pain in the neck;loss of consciousness;shortness of breath;excessive sweating;pain in the shoulders;nausea
+myocardial infarction;pain in the neck;nausea;loss of consciousness;excessive sweating;shortness of breath;pain in the shoulders
+myocardial infarction;nausea;excessive sweating;loss of consciousness;pain in the shoulders;shortness of breath;pain in the neck
+myocardial infarction;shortness of breath;excessive sweating;loss of consciousness;pain in the neck;pain in the shoulders;nausea
+myocardial infarction;sweating;weakness;high blood pressure;pain in the hands;" nausea";headache
+myocardial infarction;headache;high blood pressure;weakness;pain in the hands;sweating;" nausea"
+myocardial infarction;" nausea";weakness;sweating;high blood pressure;headache;pain in the hands
+myocardial infarction;weakness;high blood pressure;sweating;headache;" nausea";pain in the hands
+myocardial infarction;high blood pressure;pain in the hands;" nausea";headache;sweating;weakness
+myocardial infarction;headache;pain in the hands;" nausea";high blood pressure;weakness;sweating
+myocardial infarction;headache;high blood pressure;sweating;pain in the hands;weakness;" nausea"
+myocardial infarction;" nausea";high blood pressure;headache;pain in the hands;weakness;sweating
+acute appendicitis;abdominal pain;swollen belly;nausea;temperature;increased pain;the pain is worse when radulenii on the stomach
+acute appendicitis;nausea;temperature;abdominal pain;increased pain;swollen belly;the pain is worse when radulenii on the stomach
+acute appendicitis;abdominal pain;nausea;temperature;the pain is worse when radulenii on the stomach;increased pain;swollen belly
+acute appendicitis;increased pain;the pain is worse when radulenii on the stomach;nausea;temperature;swollen belly;abdominal pain
+acute appendicitis;temperature;swollen belly;the pain is worse when radulenii on the stomach;abdominal pain;increased pain;nausea
+acute appendicitis;the pain is worse when radulenii on the stomach;increased pain;nausea;temperature;swollen belly;abdominal pain
+acute appendicitis;temperature;abdominal pain;swollen belly;the pain is worse when radulenii on the stomach;nausea;increased pain
+acute appendicitis;temperature;abdominal pain;increased pain;nausea;the pain is worse when radulenii on the stomach;swollen belly
+acute appendicitis;the abdominal muscles are tense;constipation;the pain is worse when radulenii on the stomach;temperature;nausea;diarrhea
+acute appendicitis;temperature;nausea;constipation;diarrhea;the abdominal muscles are tense;the pain is worse when radulenii on the stomach
+acute appendicitis;the pain is worse when radulenii on the stomach;temperature;nausea;the abdominal muscles are tense;constipation;diarrhea
+acute appendicitis;temperature;the pain is worse when radulenii on the stomach;diarrhea;nausea;constipation;the abdominal muscles are tense
+acute appendicitis;the abdominal muscles are tense;temperature;the pain is worse when radulenii on the stomach;diarrhea;nausea;constipation
+acute appendicitis;the abdominal muscles are tense;temperature;nausea;diarrhea;the pain is worse when radulenii on the stomach;constipation
+acute appendicitis;nausea;diarrhea;the abdominal muscles are tense;temperature;constipation;the pain is worse when radulenii on the stomach
+acute appendicitis;diarrhea;the abdominal muscles are tense;the pain is worse when radulenii on the stomach;constipation;nausea;temperature
+acute appendicitis;constipation;swollen belly;temperature;nausea;bloating;increased pain in the abdomen radulenii
+acute appendicitis;nausea;bloating;increased pain in the abdomen radulenii;temperature;constipation;swollen belly
+acute appendicitis;increased pain in the abdomen radulenii;swollen belly;constipation;nausea;bloating;temperature
+acute appendicitis;temperature;nausea;swollen belly;constipation;bloating;increased pain in the abdomen radulenii
+acute appendicitis;swollen belly;increased pain in the abdomen radulenii;bloating;temperature;nausea;constipation
+acute appendicitis;increased pain in the abdomen radulenii;temperature;constipation;nausea;swollen belly;bloating
+acute appendicitis;swollen belly;nausea;increased pain in the abdomen radulenii;constipation;temperature;bloating
+acute appendicitis;constipation;increased pain in the abdomen radulenii;temperature;bloating;swollen belly;nausea
+acute appendicitis;temperature;abdominal pain;swollen belly;diarrhea;constipation;vomiting
+acute appendicitis;abdominal pain;vomiting;temperature;diarrhea;swollen belly;constipation
+acute appendicitis;swollen belly;temperature;diarrhea;abdominal pain;constipation;vomiting
+acute appendicitis;constipation;temperature;abdominal pain;vomiting;diarrhea;swollen belly
+acute appendicitis;temperature;swollen belly;diarrhea;vomiting;abdominal pain;constipation
+acute appendicitis;temperature;abdominal pain;vomiting;swollen belly;constipation;diarrhea
+acute appendicitis;diarrhea;abdominal pain;temperature;swollen belly;constipation;vomiting
+acute appendicitis;abdominal pain;constipation;diarrhea;temperature;swollen belly;vomiting
+cholecystitis;Pain in the right upper quadrant;unpleasant taste in the mouth;bloating;The tension of the abdominal muscles;headache;temperature
+cholecystitis;Pain in the right upper quadrant;temperature;The tension of the abdominal muscles;headache;unpleasant taste in the mouth;bloating
+cholecystitis;temperature;The tension of the abdominal muscles;headache;unpleasant taste in the mouth;Pain in the right upper quadrant;bloating
+cholecystitis;headache;bloating;Pain in the right upper quadrant;temperature;The tension of the abdominal muscles;unpleasant taste in the mouth
+cholecystitis;Pain in the right upper quadrant;bloating;unpleasant taste in the mouth;The tension of the abdominal muscles;headache;temperature
+cholecystitis;bloating;headache;unpleasant taste in the mouth;Pain in the right upper quadrant;temperature;The tension of the abdominal muscles
+cholecystitis;bloating;unpleasant taste in the mouth;headache;temperature;The tension of the abdominal muscles;Pain in the right upper quadrant
+cholecystitis;The tension of the abdominal muscles;bloating;unpleasant taste in the mouth;Pain in the right upper quadrant;headache;temperature
+cholecystitis;bitter taste in the mouth;vomiting;temperature rise;Regular belching;Pain in the right upper quadrant;nausea
+cholecystitis;Regular belching;temperature rise;vomiting;Pain in the right upper quadrant;bitter taste in the mouth;nausea
+cholecystitis;bitter taste in the mouth;vomiting;Regular belching;temperature rise;nausea;Pain in the right upper quadrant
+cholecystitis;Pain in the right upper quadrant;Regular belching;temperature rise;vomiting;nausea;bitter taste in the mouth
+cholecystitis;bitter taste in the mouth;Regular belching;nausea;Pain in the right upper quadrant;temperature rise;vomiting
+cholecystitis;temperature rise;nausea;bitter taste in the mouth;vomiting;Regular belching;Pain in the right upper quadrant
+cholecystitis;bitter taste in the mouth;Pain in the right upper quadrant;nausea;Regular belching;temperature rise;vomiting
+cholecystitis;nausea;Regular belching;Pain in the right upper quadrant;vomiting;temperature rise;bitter taste in the mouth
+cholecystitis;Loose stools;Pain in the right upper quadrant;Yellowing of the skin;Low blood pressure;Shortness of breath;Palpitations
+cholecystitis;Loose stools;Low blood pressure;Palpitations;Shortness of breath;Pain in the right upper quadrant;Yellowing of the skin
+cholecystitis;Low blood pressure;Pain in the right upper quadrant;Shortness of breath;Palpitations;Loose stools;Yellowing of the skin
+cholecystitis;Yellowing of the skin;Shortness of breath;Low blood pressure;Loose stools;Palpitations;Pain in the right upper quadrant
+cholecystitis;Loose stools;Yellowing of the skin;Shortness of breath;Low blood pressure;Pain in the right upper quadrant;Palpitations
+cholecystitis;Yellowing of the skin;Low blood pressure;Pain in the right upper quadrant;Loose stools;Palpitations;Shortness of breath
+cholecystitis;Shortness of breath;Yellowing of the skin;Loose stools;Pain in the right upper quadrant;Palpitations;Low blood pressure
+cholecystitis;Pain in the right upper quadrant;Palpitations;Yellowing of the skin;Low blood pressure;Shortness of breath;Loose stools
+cystitis;an unpleasant sensation in the ureter;turbid urine color;discomfort;pain in the lower abdomen;burning sensation in perineum;
+cystitis;an unpleasant sensation in the ureter;burning sensation in perineum;pain in the lower abdomen;;discomfort;turbid urine color
+cystitis;burning sensation in perineum;discomfort;turbid urine color;pain in the lower abdomen;an unpleasant sensation in the ureter;
+cystitis;burning sensation in perineum;pain in the lower abdomen;turbid urine color;discomfort;an unpleasant sensation in the ureter;
+cystitis;burning sensation in perineum;discomfort;;pain in the lower abdomen;turbid urine color;an unpleasant sensation in the ureter
+cystitis;burning sensation in perineum;;turbid urine color;pain in the lower abdomen;discomfort;an unpleasant sensation in the ureter
+cystitis;;pain in the lower abdomen;turbid urine color;discomfort;an unpleasant sensation in the ureter;burning sensation in perineum
+cystitis;burning sensation in perineum;pain in the lower abdomen;an unpleasant sensation in the ureter;turbid urine color;discomfort;
+cystitis;pus from the urethra;;stands out blood after urinating;fever;pain when urinating;frequent urination
+cystitis;pain when urinating;;pus from the urethra;fever;stands out blood after urinating;frequent urination
+cystitis;fever;pain when urinating;pus from the urethra;;frequent urination;stands out blood after urinating
+cystitis;;stands out blood after urinating;pus from the urethra;frequent urination;pain when urinating;fever
+cystitis;frequent urination;;fever;stands out blood after urinating;pus from the urethra;pain when urinating
+cystitis;;fever;stands out blood after urinating;pus from the urethra;frequent urination;pain when urinating
+cystitis;fever;pus from the urethra;pain when urinating;frequent urination;stands out blood after urinating;
+cystitis;pain when urinating;fever;frequent urination;pus from the urethra;stands out blood after urinating;
+cystitis;unpleasant smell of urine;urinary incontinence;the presence of blood in the urine;;pain in the lumbar region;the presence in urine of mucus
+cystitis;unpleasant smell of urine;;the presence of blood in the urine;urinary incontinence;the presence in urine of mucus;pain in the lumbar region
+cystitis;the presence of blood in the urine;;unpleasant smell of urine;pain in the lumbar region;the presence in urine of mucus;urinary incontinence
+cystitis;;the presence of blood in the urine;unpleasant smell of urine;pain in the lumbar region;the presence in urine of mucus;urinary incontinence
+cystitis;urinary incontinence;the presence in urine of mucus;pain in the lumbar region;the presence of blood in the urine;unpleasant smell of urine;
+cystitis;pain in the lumbar region;unpleasant smell of urine;urinary incontinence;the presence in urine of mucus;the presence of blood in the urine;
+cystitis;pain in the lumbar region;;unpleasant smell of urine;the presence of blood in the urine;the presence in urine of mucus;urinary incontinence
+cystitis;the presence in urine of mucus;the presence of blood in the urine;;urinary incontinence;pain in the lumbar region;unpleasant smell of urine
+pyelonephritis;Nausea;;vomiting;Temperature rise;chills;weakness
+pyelonephritis;weakness;;Temperature rise;Nausea;chills;vomiting
+pyelonephritis;;Temperature rise;weakness;Nausea;chills;vomiting
+pyelonephritis;vomiting;;Nausea;weakness;chills;Temperature rise
+pyelonephritis;Temperature rise;vomiting;;weakness;chills;Nausea
+pyelonephritis;Nausea;Temperature rise;weakness;vomiting;;chills
+pyelonephritis;chills;Temperature rise;weakness;;Nausea;vomiting
+pyelonephritis;weakness;;Nausea;chills;Temperature rise;vomiting
+pyelonephritis;;Palpitations;Dehydration;Frequent urination;Fever;A small swelling
+pyelonephritis;Dehydration;Frequent urination;A small swelling;;Palpitations;Fever
+pyelonephritis;Fever;Palpitations;;Frequent urination;A small swelling;Dehydration
+pyelonephritis;A small swelling;Dehydration;;Palpitations;Fever;Frequent urination
+pyelonephritis;Fever;;Frequent urination;Palpitations;A small swelling;Dehydration
+pyelonephritis;Dehydration;Fever;Palpitations;;A small swelling;Frequent urination
+pyelonephritis;A small swelling;Frequent urination;Dehydration;Palpitations;Fever;
+pyelonephritis;Frequent urination;;Dehydration;Fever;Palpitations;A small swelling
+pyelonephritis;Dull aching pain in my side;Temperature rise;Nausea;Dehydration;;burning pain during urination
+pyelonephritis;Dehydration;;Temperature rise;Dull aching pain in my side;Nausea;burning pain during urination
+pyelonephritis;Dull aching pain in my side;;burning pain during urination;Dehydration;Nausea;Temperature rise
+pyelonephritis;Nausea;Temperature rise;;Dehydration;Dull aching pain in my side;burning pain during urination
+pyelonephritis;Nausea;burning pain during urination;Dull aching pain in my side;;Temperature rise;Dehydration
+pyelonephritis;burning pain during urination;Dull aching pain in my side;;Temperature rise;Dehydration;Nausea
+pyelonephritis;Nausea;Temperature rise;burning pain during urination;;Dull aching pain in my side;Dehydration
+pyelonephritis;Nausea;;burning pain during urination;Temperature rise;Dull aching pain in my side;Dehydration
+coronary heart disease;Faults in work of heart;increase in blood pressure;palpitations;;Pain behind the breastbone;Shortness of breath
+coronary heart disease;increase in blood pressure;Pain behind the breastbone;Faults in work of heart;palpitations;;Shortness of breath
+coronary heart disease;palpitations;Faults in work of heart;;Pain behind the breastbone;increase in blood pressure;Shortness of breath
+coronary heart disease;increase in blood pressure;Pain behind the breastbone;;palpitations;Shortness of breath;Faults in work of heart
+coronary heart disease;Shortness of breath;Faults in work of heart;Pain behind the breastbone;;increase in blood pressure;palpitations
+coronary heart disease;Faults in work of heart;palpitations;;increase in blood pressure;Pain behind the breastbone;Shortness of breath
+coronary heart disease;palpitations;Shortness of breath;increase in blood pressure;Pain behind the breastbone;;Faults in work of heart
+coronary heart disease;;Shortness of breath;increase in blood pressure;Pain behind the breastbone;palpitations;Faults in work of heart
+coronary heart disease;burning sensation in the chest;;the appearance of pale gray skin tone;the pain experienced in the neck;dilated pupils;Shortness of breath
+coronary heart disease;Shortness of breath;dilated pupils;;the appearance of pale gray skin tone;the pain experienced in the neck;burning sensation in the chest
+coronary heart disease;burning sensation in the chest;;dilated pupils;the pain experienced in the neck;Shortness of breath;the appearance of pale gray skin tone
+coronary heart disease;dilated pupils;Shortness of breath;the appearance of pale gray skin tone;burning sensation in the chest;;the pain experienced in the neck
+coronary heart disease;the pain experienced in the neck;Shortness of breath;;dilated pupils;the appearance of pale gray skin tone;burning sensation in the chest
+coronary heart disease;burning sensation in the chest;;Shortness of breath;the pain experienced in the neck;the appearance of pale gray skin tone;dilated pupils
+coronary heart disease;the appearance of pale gray skin tone;the pain experienced in the neck;burning sensation in the chest;;Shortness of breath;dilated pupils
+coronary heart disease;burning sensation in the chest;the pain experienced in the neck;Shortness of breath;dilated pupils;the appearance of pale gray skin tone;
+coronary heart disease;the inability to bend over;loss of consciousness;the pain radiates to the back;;Pain behind the breastbone;the pain experienced in the shoulder
+coronary heart disease;the pain experienced in the shoulder;the inability to bend over;loss of consciousness;Pain behind the breastbone;;the pain radiates to the back
+coronary heart disease;the pain experienced in the shoulder;the pain radiates to the back;the inability to bend over;Pain behind the breastbone;loss of consciousness;
+coronary heart disease;the pain radiates to the back;the pain experienced in the shoulder;;the inability to bend over;loss of consciousness;Pain behind the breastbone
+coronary heart disease;the inability to bend over;loss of consciousness;Pain behind the breastbone;;the pain radiates to the back;the pain experienced in the shoulder
+coronary heart disease;loss of consciousness;Pain behind the breastbone;the pain radiates to the back;;the pain experienced in the shoulder;the inability to bend over
+coronary heart disease;the pain experienced in the shoulder;the pain radiates to the back;the inability to bend over;loss of consciousness;Pain behind the breastbone;
+coronary heart disease;loss of consciousness;Pain behind the breastbone;the pain experienced in the shoulder;;the pain radiates to the back;the inability to bend over
+sciatica;hip pain;pain when walking;pain in the buttocks;;lower back pain;the inability to bend over
+sciatica;hip pain;pain in the buttocks;the inability to bend over;;pain when walking;lower back pain
+sciatica;pain when walking;the inability to bend over;pain in the buttocks;lower back pain;hip pain;
+sciatica;the inability to bend over;pain when walking;pain in the buttocks;lower back pain;;hip pain
+sciatica;hip pain;;lower back pain;the inability to bend over;pain in the buttocks;pain when walking
+sciatica;lower back pain;the inability to bend over;hip pain;pain when walking;;pain in the buttocks
+sciatica;;pain in the buttocks;pain when walking;hip pain;lower back pain;the inability to bend over
+sciatica;;pain in the buttocks;hip pain;the inability to bend over;lower back pain;pain when walking
+sciatica;pain when walking;;violation of skin sensitivity at the site of lesion;sharp back pain;the limitation in the back;increased pain during movement
+sciatica;pain when walking;the limitation in the back;sharp back pain;violation of skin sensitivity at the site of lesion;;increased pain during movement
+sciatica;the limitation in the back;increased pain during movement;sharp back pain;violation of skin sensitivity at the site of lesion;pain when walking;
+sciatica;violation of skin sensitivity at the site of lesion;increased pain during movement;sharp back pain;pain when walking;;the limitation in the back
+sciatica;;pain when walking;violation of skin sensitivity at the site of lesion;the limitation in the back;sharp back pain;increased pain during movement
+sciatica;sharp back pain;pain when walking;the limitation in the back;increased pain during movement;violation of skin sensitivity at the site of lesion;
+sciatica;increased pain during movement;violation of skin sensitivity at the site of lesion;;pain when walking;sharp back pain;the limitation in the back
+sciatica;sharp back pain;the limitation in the back;violation of skin sensitivity at the site of lesion;increased pain during movement;;pain when walking
+sciatica;violation of the sensitivity;;muscle weakness;a feeling of numbness;the inability to bend over;pain in the buttocks
+sciatica;violation of the sensitivity;the inability to bend over;muscle weakness;;a feeling of numbness;pain in the buttocks
+sciatica;;violation of the sensitivity;muscle weakness;a feeling of numbness;pain in the buttocks;the inability to bend over
+sciatica;a feeling of numbness;violation of the sensitivity;pain in the buttocks;;the inability to bend over;muscle weakness
+sciatica;;a feeling of numbness;the inability to bend over;muscle weakness;pain in the buttocks;violation of the sensitivity
+sciatica;the inability to bend over;a feeling of numbness;violation of the sensitivity;muscle weakness;pain in the buttocks;
+sciatica;violation of the sensitivity;;the inability to bend over;muscle weakness;a feeling of numbness;pain in the buttocks
+sciatica;violation of the sensitivity;the inability to bend over;muscle weakness;;pain in the buttocks;a feeling of numbness
+intervertebral hernia in the lumbar;;numbness of the feet;severe pain;shooting pain after sudden movements;urinary incontinence;numbness in the groin area
+intervertebral hernia in the lumbar;numbness of the feet;severe pain;shooting pain after sudden movements;;numbness in the groin area;urinary incontinence
+intervertebral hernia in the lumbar;urinary incontinence;numbness of the feet;severe pain;shooting pain after sudden movements;numbness in the groin area;
+intervertebral hernia in the lumbar;numbness of the feet;shooting pain after sudden movements;numbness in the groin area;severe pain;;urinary incontinence
+intervertebral hernia in the lumbar;shooting pain after sudden movements;numbness of the feet;numbness in the groin area;;severe pain;urinary incontinence
+intervertebral hernia in the lumbar;severe pain;shooting pain after sudden movements;numbness in the groin area;urinary incontinence;;numbness of the feet
+intervertebral hernia in the lumbar;urinary incontinence;severe pain;shooting pain after sudden movements;numbness in the groin area;;numbness of the feet
+intervertebral hernia in the lumbar;urinary incontinence;severe pain;;numbness in the groin area;shooting pain after sudden movements;numbness of the feet
+intervertebral hernia in the lumbar;the pain experienced in the legs;;diarrhea;problem with brecciation;the pain experienced in the hip;constipation
+intervertebral hernia in the lumbar;problem with brecciation;constipation;diarrhea;the pain experienced in the legs;the pain experienced in the hip;
+intervertebral hernia in the lumbar;the pain experienced in the hip;diarrhea;the pain experienced in the legs;constipation;;problem with brecciation
+intervertebral hernia in the lumbar;the pain experienced in the legs;diarrhea;;constipation;the pain experienced in the hip;problem with brecciation
+intervertebral hernia in the lumbar;the pain experienced in the hip;;problem with brecciation;the pain experienced in the legs;constipation;diarrhea
+intervertebral hernia in the lumbar;constipation;diarrhea;;the pain experienced in the hip;the pain experienced in the legs;problem with brecciation
+intervertebral hernia in the lumbar;;the pain experienced in the legs;constipation;diarrhea;the pain experienced in the hip;problem with brecciation
+intervertebral hernia in the lumbar;diarrhea;the pain experienced in the hip;constipation;problem with brecciation;the pain experienced in the legs;
+intervertebral hernia in the cervical and thoracic;headache;pain at sharp movements;numbness of fingers;back pain;;dizziness
+intervertebral hernia in the cervical and thoracic;pain at sharp movements;dizziness;;headache;back pain;numbness of fingers
+intervertebral hernia in the cervical and thoracic;headache;;numbness of fingers;back pain;pain at sharp movements;dizziness
+intervertebral hernia in the cervical and thoracic;;dizziness;back pain;headache;numbness of fingers;pain at sharp movements
+intervertebral hernia in the cervical and thoracic;back pain;numbness of fingers;headache;dizziness;;pain at sharp movements
+intervertebral hernia in the cervical and thoracic;headache;;back pain;numbness of fingers;pain at sharp movements;dizziness
+intervertebral hernia in the cervical and thoracic;numbness of fingers;headache;dizziness;pain at sharp movements;back pain;
+intervertebral hernia in the cervical and thoracic;numbness of fingers;pain at sharp movements;back pain;headache;;dizziness
+intervertebral hernia in the cervical and thoracic;pain at sharp movements;pain in the hand;dizziness;shoulder pain;;pressure surges
+intervertebral hernia in the cervical and thoracic;dizziness;pain at sharp movements;pressure surges;;pain in the hand;shoulder pain
+intervertebral hernia in the cervical and thoracic;pain in the hand;pressure surges;pain at sharp movements;shoulder pain;dizziness;
+intervertebral hernia in the cervical and thoracic;pressure surges;dizziness;shoulder pain;;pain at sharp movements;pain in the hand
+intervertebral hernia in the cervical and thoracic;pain in the hand;;shoulder pain;dizziness;pressure surges;pain at sharp movements
+intervertebral hernia in the cervical and thoracic;;pain at sharp movements;pain in the hand;dizziness;pressure surges;shoulder pain
+intervertebral hernia in the cervical and thoracic;pain in the hand;dizziness;pain at sharp movements;pressure surges;;shoulder pain
+intervertebral hernia in the cervical and thoracic;;pain in the hand;shoulder pain;dizziness;pain at sharp movements;pressure surges
+"Absence seizure ";the smacking lips;small movements with both hands;frequent blinking;chewing movements;" rubbing of the fingers";sudden sinking
+"Absence seizure ";sudden sinking;the smacking lips;chewing movements;frequent blinking;" rubbing of the fingers";small movements with both hands
+"Absence seizure ";chewing movements;" rubbing of the fingers";frequent blinking;sudden sinking;the smacking lips;small movements with both hands
+"Absence seizure ";sudden sinking;the smacking lips;frequent blinking;chewing movements;" rubbing of the fingers";small movements with both hands
+"Absence seizure ";sudden sinking;chewing movements;" rubbing of the fingers";small movements with both hands;frequent blinking;the smacking lips
+"Absence seizure ";the smacking lips;sudden sinking;frequent blinking;small movements with both hands;" rubbing of the fingers";chewing movements
+"Absence seizure ";chewing movements;the smacking lips;frequent blinking;sudden sinking;small movements with both hands;" rubbing of the fingers"
+"Absence seizure ";chewing movements;frequent blinking;small movements with both hands;the smacking lips;sudden sinking;" rubbing of the fingers"
+Abscess tooth;Increased body temperature;Swelling on the face or cheek;Strong constant throbbing tooth pain;Increased sensitivity to hot and cold;Painful enlarged submandibular or cervical lymph nodes;Pain when pressure is applied on the affected tooth during biting or chewing food
+Abscess tooth;Painful enlarged submandibular or cervical lymph nodes;Increased body temperature;Pain when pressure is applied on the affected tooth during biting or chewing food;Swelling on the face or cheek;Increased sensitivity to hot and cold;Strong constant throbbing tooth pain
+Abscess tooth;Painful enlarged submandibular or cervical lymph nodes;Strong constant throbbing tooth pain;Pain when pressure is applied on the affected tooth during biting or chewing food;Increased body temperature;Swelling on the face or cheek;Increased sensitivity to hot and cold
+Abscess tooth;Pain when pressure is applied on the affected tooth during biting or chewing food;Swelling on the face or cheek;Painful enlarged submandibular or cervical lymph nodes;Strong constant throbbing tooth pain;Increased sensitivity to hot and cold;Increased body temperature
+Abscess tooth;Increased body temperature;Painful enlarged submandibular or cervical lymph nodes;Increased sensitivity to hot and cold;Pain when pressure is applied on the affected tooth during biting or chewing food;Swelling on the face or cheek;Strong constant throbbing tooth pain
+Abscess tooth;Pain when pressure is applied on the affected tooth during biting or chewing food;Increased body temperature;Swelling on the face or cheek;Increased sensitivity to hot and cold;Painful enlarged submandibular or cervical lymph nodes;Strong constant throbbing tooth pain
+Abscess tooth;Swelling on the face or cheek;Strong constant throbbing tooth pain;Increased body temperature;Pain when pressure is applied on the affected tooth during biting or chewing food;Increased sensitivity to hot and cold;Painful enlarged submandibular or cervical lymph nodes
+Abscess tooth;Pain when pressure is applied on the affected tooth during biting or chewing food;Swelling on the face or cheek;Increased body temperature;Increased sensitivity to hot and cold;Strong constant throbbing tooth pain;Painful enlarged submandibular or cervical lymph nodes
+Adenomyosis;;Uterine enlargement;Heavy or prolonged menstrual bleeding;;Chronic pain in the pelvic area;stabbing pain in the pelvic region
+Adenomyosis;Uterine enlargement;Chronic pain in the pelvic area;Heavy or prolonged menstrual bleeding;stabbing pain in the pelvic region;;
+Adenomyosis;;;Uterine enlargement;stabbing pain in the pelvic region;Heavy or prolonged menstrual bleeding;Chronic pain in the pelvic area
+Adenomyosis;stabbing pain in the pelvic region;;Heavy or prolonged menstrual bleeding;;Uterine enlargement;Chronic pain in the pelvic area
+Adenomyosis;Uterine enlargement;stabbing pain in the pelvic region;Chronic pain in the pelvic area;Heavy or prolonged menstrual bleeding;;
+Adenomyosis;Chronic pain in the pelvic area;;Uterine enlargement;Heavy or prolonged menstrual bleeding;stabbing pain in the pelvic region;
+Adenomyosis;;;Chronic pain in the pelvic area;stabbing pain in the pelvic region;Heavy or prolonged menstrual bleeding;Uterine enlargement
+Adenomyosis;;Heavy or prolonged menstrual bleeding;;stabbing pain in the pelvic region;Uterine enlargement;Chronic pain in the pelvic area
+Adrenoleukodystrophy;Spasticity in the legs;Violation of the sensitivity;The development of adrenal insufficiency;;hyperpigmentation of the skin;Weakness in the legs
+Adrenoleukodystrophy;Violation of the sensitivity;The development of adrenal insufficiency;Spasticity in the legs;;Weakness in the legs;hyperpigmentation of the skin
+Adrenoleukodystrophy;hyperpigmentation of the skin;The development of adrenal insufficiency;;Spasticity in the legs;Violation of the sensitivity;Weakness in the legs
+Adrenoleukodystrophy;hyperpigmentation of the skin;Weakness in the legs;The development of adrenal insufficiency;;Violation of the sensitivity;Spasticity in the legs
+Adrenoleukodystrophy;;Violation of the sensitivity;Spasticity in the legs;Weakness in the legs;hyperpigmentation of the skin;The development of adrenal insufficiency
+Adrenoleukodystrophy;The development of adrenal insufficiency;Spasticity in the legs;Weakness in the legs;hyperpigmentation of the skin;;Violation of the sensitivity
+Adrenoleukodystrophy;;The development of adrenal insufficiency;Violation of the sensitivity;Weakness in the legs;Spasticity in the legs;hyperpigmentation of the skin
+Adrenoleukodystrophy;hyperpigmentation of the skin;Violation of the sensitivity;Spasticity in the legs;;The development of adrenal insufficiency;Weakness in the legs
+Acanthosis black;;;;The appearance of dark age spots;the odor of the skin;
+Acanthosis black;The appearance of dark age spots;;;;;the odor of the skin
+Acanthosis black;the odor of the skin;;;;The appearance of dark age spots;
+Acanthosis black;;the odor of the skin;;;;The appearance of dark age spots
+Acanthosis black;;the odor of the skin;;;;The appearance of dark age spots
+Acanthosis black;the odor of the skin;;;The appearance of dark age spots;;
+Acanthosis black;;the odor of the skin;;;The appearance of dark age spots;
+Acanthosis black;;;;the odor of the skin;The appearance of dark age spots;
+Acromegaly;;;A disproportionate increase in the hands and feet;;A gradual change in the shape of the face;
+Acromegaly;A gradual change in the shape of the face;;A disproportionate increase in the hands and feet;;;
+Acromegaly;;;A gradual change in the shape of the face;;A disproportionate increase in the hands and feet;
+Acromegaly;A disproportionate increase in the hands and feet;;;;;A gradual change in the shape of the face
+Acromegaly;;A disproportionate increase in the hands and feet;;;A gradual change in the shape of the face;
+Acromegaly;;;A disproportionate increase in the hands and feet;;A gradual change in the shape of the face;
+Acromegaly;A gradual change in the shape of the face;;A disproportionate increase in the hands and feet;;;
+Acromegaly;;A gradual change in the shape of the face;A disproportionate increase in the hands and feet;;;
+Allergic to dust mites;black eyes;sneezing;wheezing sound on exhale;watery eyes;shortness of breath;redness of the eyes
+Allergic to dust mites;watery eyes;sneezing;shortness of breath;redness of the eyes;wheezing sound on exhale;black eyes
+Allergic to dust mites;redness of the eyes;black eyes;sneezing;wheezing sound on exhale;shortness of breath;watery eyes
+Allergic to dust mites;wheezing sound on exhale;black eyes;watery eyes;shortness of breath;sneezing;redness of the eyes
+Allergic to dust mites;black eyes;redness of the eyes;shortness of breath;wheezing sound on exhale;sneezing;watery eyes
+Allergic to dust mites;sneezing;watery eyes;black eyes;shortness of breath;redness of the eyes;wheezing sound on exhale
+Allergic to dust mites;black eyes;sneezing;shortness of breath;watery eyes;wheezing sound on exhale;redness of the eyes
+Allergic to dust mites;redness of the eyes;black eyes;sneezing;watery eyes;wheezing sound on exhale;shortness of breath
+Allergic to eggs;nausea;shortness of breath;Skin rashes;Nasal congestion;cough;
+Allergic to eggs;cough;nausea;;shortness of breath;Nasal congestion;Skin rashes
+Allergic to eggs;nausea;Nasal congestion;cough;Skin rashes;;shortness of breath
+Allergic to eggs;shortness of breath;Skin rashes;cough;;nausea;Nasal congestion
+Allergic to eggs;cough;shortness of breath;;nausea;Nasal congestion;Skin rashes
+Allergic to eggs;cough;Skin rashes;;Nasal congestion;nausea;shortness of breath
+Allergic to eggs;Nasal congestion;Skin rashes;;shortness of breath;cough;nausea
+Allergic to eggs;shortness of breath;;Skin rashes;Nasal congestion;cough;nausea
+Acute appendicitis;;pain in the stomach;dry mouth;palpitations;Temperature rise;local pain in the right iliac region
+Acute appendicitis;local pain in the right iliac region;;pain in the stomach;palpitations;Temperature rise;dry mouth
+Acute appendicitis;Temperature rise;palpitations;;pain in the stomach;local pain in the right iliac region;dry mouth
+Acute appendicitis;;dry mouth;pain in the stomach;palpitations;Temperature rise;local pain in the right iliac region
+Acute appendicitis;dry mouth;pain in the stomach;Temperature rise;palpitations;;local pain in the right iliac region
+Acute appendicitis;local pain in the right iliac region;pain in the stomach;dry mouth;palpitations;;Temperature rise
+Acute appendicitis;;dry mouth;palpitations;pain in the stomach;Temperature rise;local pain in the right iliac region
+Acute appendicitis;palpitations;;dry mouth;local pain in the right iliac region;pain in the stomach;Temperature rise
+Astigmatism;blurred vision at night;;headaches;eye strain;distorted vision;strabismus
+Astigmatism;headaches;eye strain;distorted vision;strabismus;blurred vision at night;
+Astigmatism;strabismus;blurred vision at night;;distorted vision;eye strain;headaches
+Astigmatism;blurred vision at night;headaches;eye strain;distorted vision;strabismus;
+Astigmatism;distorted vision;eye strain;blurred vision at night;;strabismus;headaches
+Astigmatism;headaches;strabismus;distorted vision;blurred vision at night;;eye strain
+Astigmatism;;distorted vision;headaches;blurred vision at night;eye strain;strabismus
+Astigmatism;distorted vision;blurred vision at night;eye strain;;headaches;strabismus
+Atelectasis;;cough;shortness of breath;;fast breathing;shortness of breath
+Atelectasis;cough;fast breathing;;shortness of breath;;shortness of breath
+Atelectasis;;cough;shortness of breath;fast breathing;;shortness of breath
+Atelectasis;cough;;shortness of breath;fast breathing;shortness of breath;
+Atelectasis;cough;shortness of breath;fast breathing;;;shortness of breath
+Atelectasis;shortness of breath;;fast breathing;;cough;shortness of breath
+Atelectasis;shortness of breath;cough;;shortness of breath;;fast breathing
+Atelectasis;;cough;;shortness of breath;fast breathing;shortness of breath
+Protein in the urine;Change in color of urine;poor appetite;Drowsiness;edema;Joint pain;Nausea
+Protein in the urine;Nausea;Change in color of urine;Joint pain;Drowsiness;poor appetite;edema
+Protein in the urine;Drowsiness;Change in color of urine;poor appetite;Nausea;edema;Joint pain
+Protein in the urine;Nausea;Drowsiness;Joint pain;poor appetite;Change in color of urine;edema
+Protein in the urine;Joint pain;Drowsiness;poor appetite;Nausea;edema;Change in color of urine
+Protein in the urine;poor appetite;Change in color of urine;Drowsiness;edema;Joint pain;Nausea
+Protein in the urine;Drowsiness;edema;Nausea;Joint pain;poor appetite;Change in color of urine
+Protein in the urine;edema;Nausea;Change in color of urine;Joint pain;poor appetite;Drowsiness
+Sinusitis chronic;" watery eyes";;The feeling of pressure;shortness of breath;;mucous discharge from the nose
+Sinusitis chronic;;" watery eyes";mucous discharge from the nose;The feeling of pressure;;shortness of breath
+Sinusitis chronic;shortness of breath;" watery eyes";;The feeling of pressure;;mucous discharge from the nose
+Sinusitis chronic;shortness of breath;mucous discharge from the nose;;;The feeling of pressure;" watery eyes"
+Sinusitis chronic;The feeling of pressure;mucous discharge from the nose;;" watery eyes";shortness of breath;
+Sinusitis chronic;The feeling of pressure;;shortness of breath;" watery eyes";;mucous discharge from the nose
+Sinusitis chronic;mucous discharge from the nose;shortness of breath;The feeling of pressure;;" watery eyes";
+Sinusitis chronic;;shortness of breath;The feeling of pressure;;" watery eyes";mucous discharge from the nose
+Hemorrhoids;discharge of blood with stool;mucus;;;discomfort in the anal canal;anal itching
+Hemorrhoids;;mucus;discharge of blood with stool;discomfort in the anal canal;;anal itching
+Hemorrhoids;mucus;discomfort in the anal canal;discharge of blood with stool;;anal itching;
+Hemorrhoids;;;discomfort in the anal canal;mucus;anal itching;discharge of blood with stool
+Hemorrhoids;;mucus;;discomfort in the anal canal;anal itching;discharge of blood with stool
+Hemorrhoids;anal itching;;discharge of blood with stool;;discomfort in the anal canal;mucus
+Hemorrhoids;;discharge of blood with stool;anal itching;discomfort in the anal canal;mucus;
+Hemorrhoids;mucus;discomfort in the anal canal;anal itching;;;discharge of blood with stool
+Hyperaldosteronism primary;high blood pressure;"frequent urination ";hypokalemia;muscle spasms;Resistant hypertension;weakness
+Hyperaldosteronism primary;weakness;high blood pressure;"frequent urination ";hypokalemia;Resistant hypertension;muscle spasms
+Hyperaldosteronism primary;Resistant hypertension;hypokalemia;high blood pressure;"frequent urination ";muscle spasms;weakness
+Hyperaldosteronism primary;muscle spasms;Resistant hypertension;weakness;hypokalemia;"frequent urination ";high blood pressure
+Hyperaldosteronism primary;Resistant hypertension;high blood pressure;weakness;hypokalemia;muscle spasms;"frequent urination "
+Hyperaldosteronism primary;weakness;high blood pressure;"frequent urination ";muscle spasms;hypokalemia;Resistant hypertension
+Hyperaldosteronism primary;hypokalemia;muscle spasms;"frequent urination ";weakness;high blood pressure;Resistant hypertension
+Hyperaldosteronism primary;"frequent urination ";high blood pressure;Resistant hypertension;muscle spasms;hypokalemia;weakness
+Hyperkalemia;weakness;vomiting;arrhythmia;convulsive twitching of the muscles;tingling in the extremities;stomach cramps
+Hyperkalemia;weakness;arrhythmia;convulsive twitching of the muscles;stomach cramps;tingling in the extremities;vomiting
+Hyperkalemia;arrhythmia;weakness;stomach cramps;tingling in the extremities;convulsive twitching of the muscles;vomiting
+Hyperkalemia;tingling in the extremities;stomach cramps;convulsive twitching of the muscles;weakness;arrhythmia;vomiting
+Hyperkalemia;stomach cramps;weakness;convulsive twitching of the muscles;tingling in the extremities;arrhythmia;vomiting
+Hyperkalemia;weakness;vomiting;stomach cramps;convulsive twitching of the muscles;arrhythmia;tingling in the extremities
+Hyperkalemia;convulsive twitching of the muscles;stomach cramps;arrhythmia;tingling in the extremities;vomiting;weakness
+Hyperkalemia;convulsive twitching of the muscles;weakness;stomach cramps;vomiting;arrhythmia;tingling in the extremities
+Hypercalcemia;Fatigue;Increased frequency of urination;nausea;abdominal pain;Arrhythmia;Constipation
+Hypercalcemia;Constipation;nausea;Increased frequency of urination;Fatigue;abdominal pain;Arrhythmia
+Hypercalcemia;Arrhythmia;abdominal pain;Fatigue;Increased frequency of urination;Constipation;nausea
+Hypercalcemia;Arrhythmia;Constipation;Fatigue;abdominal pain;nausea;Increased frequency of urination
+Hypercalcemia;Fatigue;nausea;Constipation;abdominal pain;Arrhythmia;Increased frequency of urination
+Hypercalcemia;nausea;Fatigue;Constipation;Increased frequency of urination;abdominal pain;Arrhythmia
+Hypercalcemia;nausea;Fatigue;Arrhythmia;abdominal pain;Constipation;Increased frequency of urination
+Hypercalcemia;Arrhythmia;Fatigue;Constipation;nausea;Increased frequency of urination;abdominal pain
+Hypoxemia;drowsiness;shortness of breath;palpitations;weakness;pale skin;dizziness
+Hypoxemia;pale skin;drowsiness;dizziness;palpitations;weakness;shortness of breath
+Hypoxemia;dizziness;palpitations;weakness;drowsiness;shortness of breath;pale skin
+Hypoxemia;weakness;dizziness;palpitations;pale skin;shortness of breath;drowsiness
+Hypoxemia;drowsiness;shortness of breath;weakness;pale skin;dizziness;palpitations
+Hypoxemia;shortness of breath;pale skin;drowsiness;weakness;palpitations;dizziness
+Hypoxemia;shortness of breath;weakness;pale skin;drowsiness;dizziness;palpitations
+Hypoxemia;shortness of breath;dizziness;weakness;drowsiness;pale skin;palpitations
+Glioma;seizures muscle contraction;visual disturbances;nausea;speech disorder;headaches;violations of the circulation of cerebrospinal fluid
+Glioma;nausea;headaches;visual disturbances;violations of the circulation of cerebrospinal fluid;speech disorder;seizures muscle contraction
+Glioma;visual disturbances;headaches;seizures muscle contraction;violations of the circulation of cerebrospinal fluid;speech disorder;nausea
+Glioma;headaches;speech disorder;visual disturbances;violations of the circulation of cerebrospinal fluid;seizures muscle contraction;nausea
+Glioma;nausea;seizures muscle contraction;headaches;violations of the circulation of cerebrospinal fluid;speech disorder;visual disturbances
+Glioma;violations of the circulation of cerebrospinal fluid;visual disturbances;speech disorder;nausea;seizures muscle contraction;headaches
+Glioma;headaches;visual disturbances;violations of the circulation of cerebrospinal fluid;speech disorder;nausea;seizures muscle contraction
+Glioma;headaches;violations of the circulation of cerebrospinal fluid;visual disturbances;nausea;seizures muscle contraction;speech disorder
+Flu;headaches;sore throat;fever;severe discomfort;cough;muscle pain
+Flu;severe discomfort;muscle pain;fever;headaches;cough;sore throat
+Flu;severe discomfort;headaches;sore throat;muscle pain;cough;fever
+Flu;muscle pain;severe discomfort;sore throat;cough;fever;headaches
+Flu;sore throat;cough;muscle pain;headaches;fever;severe discomfort
+Flu;cough;sore throat;headaches;muscle pain;severe discomfort;fever
+Flu;headaches;sore throat;severe discomfort;cough;muscle pain;fever
+Flu;fever;muscle pain;headaches;sore throat;severe discomfort;cough
+The bird flu;sore throat;fever;;cough;Chills;mucous discharge from the nose
+The bird flu;mucous discharge from the nose;Chills;sore throat;;cough;fever
+The bird flu;mucous discharge from the nose;;sore throat;Chills;fever;cough
+The bird flu;cough;;mucous discharge from the nose;Chills;fever;sore throat
+The bird flu;mucous discharge from the nose;Chills;cough;fever;sore throat;
+The bird flu;sore throat;Chills;mucous discharge from the nose;;cough;fever
+The bird flu;sore throat;mucous discharge from the nose;;cough;Chills;fever
+The bird flu;cough;fever;;sore throat;Chills;mucous discharge from the nose
+Hernia hiatal;;dull pressive pain in the epigastric region;;;;
+Hernia hiatal;;;dull pressive pain in the epigastric region;;;
+Hernia hiatal;;;;dull pressive pain in the epigastric region;;
+Hernia hiatal;dull pressive pain in the epigastric region;;;;;
+Hernia hiatal;;dull pressive pain in the epigastric region;;;;
+Hernia hiatal;;;dull pressive pain in the epigastric region;;;
+Hernia hiatal;;;;;;dull pressive pain in the epigastric region
+Hernia hiatal;;;;dull pressive pain in the epigastric region;;
+Dumping syndrome;profuse sweating;weakness;feeling of fullness in the stomach;headache;heat;copious urination
+Dumping syndrome;profuse sweating;feeling of fullness in the stomach;heat;copious urination;headache;weakness
+Dumping syndrome;weakness;copious urination;heat;headache;profuse sweating;feeling of fullness in the stomach
+Dumping syndrome;weakness;feeling of fullness in the stomach;copious urination;headache;profuse sweating;heat
+Dumping syndrome;weakness;copious urination;feeling of fullness in the stomach;headache;heat;profuse sweating
+Dumping syndrome;copious urination;heat;weakness;headache;feeling of fullness in the stomach;profuse sweating
+Dumping syndrome;headache;profuse sweating;copious urination;feeling of fullness in the stomach;heat;weakness
+Dumping syndrome;heat;copious urination;weakness;profuse sweating;headache;feeling of fullness in the stomach
+Deformity of the nasal bones;Discharge from the nose;oxygen starvation;Difficulty breathing through the nose;spasms of the glottis;Dryness in the throat;headache in the supraorbital region
+Deformity of the nasal bones;headache in the supraorbital region;oxygen starvation;Discharge from the nose;Difficulty breathing through the nose;Dryness in the throat;spasms of the glottis
+Deformity of the nasal bones;Discharge from the nose;spasms of the glottis;headache in the supraorbital region;Dryness in the throat;Difficulty breathing through the nose;oxygen starvation
+Deformity of the nasal bones;Difficulty breathing through the nose;oxygen starvation;Dryness in the throat;Discharge from the nose;headache in the supraorbital region;spasms of the glottis
+Deformity of the nasal bones;Discharge from the nose;Difficulty breathing through the nose;Dryness in the throat;oxygen starvation;headache in the supraorbital region;spasms of the glottis
+Deformity of the nasal bones;oxygen starvation;Difficulty breathing through the nose;spasms of the glottis;Discharge from the nose;Dryness in the throat;headache in the supraorbital region
+Deformity of the nasal bones;Dryness in the throat;oxygen starvation;Difficulty breathing through the nose;spasms of the glottis;headache in the supraorbital region;Discharge from the nose
+Deformity of the nasal bones;spasms of the glottis;Discharge from the nose;headache in the supraorbital region;oxygen starvation;Dryness in the throat;Difficulty breathing through the nose
+Jaundice;Yellowness of the skin;Darkening of urine;headache;Discoloration of feces;nausea;weakness
+Jaundice;weakness;Darkening of urine;Discoloration of feces;Yellowness of the skin;nausea;headache
+Jaundice;Yellowness of the skin;Discoloration of feces;nausea;weakness;headache;Darkening of urine
+Jaundice;Darkening of urine;Yellowness of the skin;weakness;headache;Discoloration of feces;nausea
+Jaundice;headache;Darkening of urine;weakness;Discoloration of feces;nausea;Yellowness of the skin
+Jaundice;Discoloration of feces;nausea;headache;weakness;Darkening of urine;Yellowness of the skin
+Jaundice;nausea;headache;Discoloration of feces;Darkening of urine;weakness;Yellowness of the skin
+Jaundice;Yellowness of the skin;nausea;Discoloration of feces;headache;Darkening of urine;weakness
+Legionellez;cough;headache;Heat;Loss of appetite;malaise;muscle pain
+Legionellez;cough;Loss of appetite;muscle pain;malaise;Heat;headache
+Legionellez;Heat;cough;headache;malaise;muscle pain;Loss of appetite
+Legionellez;Loss of appetite;headache;Heat;muscle pain;malaise;cough
+Legionellez;cough;Heat;headache;Loss of appetite;muscle pain;malaise
+Legionellez;Heat;muscle pain;cough;headache;malaise;Loss of appetite
+Legionellez;malaise;Heat;muscle pain;headache;Loss of appetite;cough
+Legionellez;malaise;headache;Heat;muscle pain;Loss of appetite;cough
