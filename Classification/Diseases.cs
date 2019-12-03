@@ -24,6 +24,5 @@ namespace Classification
 
         [LoadColumn(6)]
         public string Sym6 { get; set; }
-
     }
 }
