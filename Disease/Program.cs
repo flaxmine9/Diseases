@@ -25,7 +25,6 @@ namespace Disease
 
             csv.Write(trainPath, resultShuffle);
 
-
             var dataSet = NeuralNetwork.LoadData(trainPath);
             var pipeLine = NeuralNetwork.ProcessData();
             NeuralNetwork.BuildAndTrainModel(dataSet, pipeLine, 0.2);
