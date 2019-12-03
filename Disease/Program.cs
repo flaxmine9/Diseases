@@ -18,17 +18,17 @@ namespace Disease
             Csv csv = new Csv();
             Translate translate = new Translate();
 
-            var csvDataSet = csv.ReadCsv(pathDataSetRussian);
+            //var csvDataSet = csv.ReadCsv(pathDataSetRussian);
 
-            var translatedText = translate.TranslateDataSet(csvDataSet);
-            var resultShuffle = csv.GetShuffleSymptoms(translatedText);
+            //var translatedText = translate.TranslateDataSet(csvDataSet);
+            //var resultShuffle = csv.GetShuffleSymptoms(translatedText);
 
-            csv.Write(trainPath, resultShuffle);
+            //csv.Write(trainPath, resultShuffle);
 
             var dataSet = NeuralNetwork.LoadData(trainPath);
-            var pipeLine = NeuralNetwork.ProcessData();
-            NeuralNetwork.BuildAndTrainModel(dataSet, pipeLine, 0.2);
-            NeuralNetwork.Evaluate();
+            //var pipeLine = NeuralNetwork.ProcessData();
+            //NeuralNetwork.BuildAndTrainModel(dataSet, pipeLine, 0.2);
+            //NeuralNetwork.Evaluate(dataSet.Schema);
 
             NeuralNetwork.PredictDisease(new Diseases()
             {

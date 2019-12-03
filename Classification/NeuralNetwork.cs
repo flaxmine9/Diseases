@@ -1,8 +1,6 @@
 ﻿using Microsoft.ML;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text;
 using static Microsoft.ML.DataOperationsCatalog;
 
 namespace Classification
@@ -15,8 +13,6 @@ namespace Classification
         private static MLContext _mlContext;
         private static PredictionEngine<Diseases, PredictionDiseases> _predEngine;
         private static ITransformer _trainedModel;
-
-        private static DataViewSchema predictionPipelineSchema;
 
         private static IDataView trainData;
         private static IDataView testData;
@@ -56,7 +52,7 @@ namespace Classification
 
             return trainingPipeline;
         }
-        public static void Evaluate()
+        public static void Evaluate(DataViewSchema trainingDataViewSchema)
         {
             var testMetrics = _mlContext.MulticlassClassification.Evaluate(_trainedModel.Transform(testData));
 
@@ -71,11 +67,11 @@ namespace Classification
             Console.WriteLine($"*       LogLossReduction: {testMetrics.LogLossReduction:#.###}");
             Console.WriteLine($"*************************************************************************************************************");
 
-            SaveModelAsFile(_mlContext, predictionPipelineSchema, _trainedModel);
+            SaveModelAsFile(_mlContext, trainingDataViewSchema, _trainedModel);
         }
         public static void PredictDisease(Diseases diseases)
         {
-            ITransformer loadedModel = _mlContext.Model.Load(_modelPath, out predictionPipelineSchema);
+            ITransformer loadedModel = _mlContext.Model.Load(_modelPath, out var modelInputSchema);
 
             _predEngine = _mlContext.Model.CreatePredictionEngine<Diseases, PredictionDiseases>(loadedModel);
 
