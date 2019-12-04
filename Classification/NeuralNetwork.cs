@@ -85,5 +85,39 @@ namespace Classification
 
             Console.WriteLine("The model is saved to {0}", _modelPath);
         }
+
+        public static void PredictDiseases()
+        {
+            ITransformer loadedModel = _mlContext.Model.Load(_modelPath, out var modelInputSchema);
+            _predEngine = _mlContext.Model.CreatePredictionEngine<Diseases, PredictionDiseases>(loadedModel);
+
+            Diseases[] diseases = new Diseases[]
+            {
+                new Diseases()
+                {
+                    Sym1="coughing",
+                    Sym2="headache",
+                    Sym3="hurt glatat",
+                    Sym4="temperature",
+                    Sym5="malaise"
+                },
+                new Diseases()
+                {
+                    Sym1="seeing double;",
+                    Sym2="the inability to straighten legs",
+                    Sym4="stiff neck",
+                    Sym5="skin rash"
+                }
+            };
+
+            IDataView batchDiseases = _mlContext.Data.LoadFromEnumerable<Diseases>(diseases);
+
+            var predictedResults = _mlContext.Data.CreateEnumerable<Diseases>(batchDiseases, reuseRowObject: false);
+
+            foreach (Diseases prediction in predictedResults)
+            {
+                Console.WriteLine($"Prediction: {_predEngine.Predict(prediction).Disease}");
+            }
+        }
     }
 }

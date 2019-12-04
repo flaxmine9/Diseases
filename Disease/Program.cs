@@ -30,6 +30,11 @@ namespace Disease
             //NeuralNetwork.BuildAndTrainModel(dataSet, pipeLine, 0.2);
             //NeuralNetwork.Evaluate(dataSet.Schema);
 
+            NeuralNetwork.PredictDiseases();
+
+
+            Console.WriteLine($"*************************************************************************************************************");
+
             NeuralNetwork.PredictDisease(new Diseases()
             {
                 Sym1 = "numbness of fingers",
