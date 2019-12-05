@@ -1,5 +1,6 @@
 ﻿using Microsoft.ML;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using static Microsoft.ML.DataOperationsCatalog;
 
@@ -8,7 +9,7 @@ namespace Classification
     public static class NeuralNetwork
     {
         private static string _appPath => Path.GetDirectoryName(Environment.GetCommandLineArgs()[0]);
-        private static string _modelPath => Path.Combine(_appPath, "Models", "model.zip");
+        private static string _modelPath => Path.Combine(_appPath, "Models", "LbfgsPoissonRegression.zip");
 
         private static MLContext _mlContext;
         private static PredictionEngine<Diseases, PredictionDiseases> _predEngine;
@@ -86,38 +87,23 @@ namespace Classification
             Console.WriteLine("The model is saved to {0}", _modelPath);
         }
 
-        public static void PredictDiseases()
+        public static List<string> PredictDiseases(IEnumerable<Diseases> list)
         {
             ITransformer loadedModel = _mlContext.Model.Load(_modelPath, out var modelInputSchema);
             _predEngine = _mlContext.Model.CreatePredictionEngine<Diseases, PredictionDiseases>(loadedModel);
 
-            Diseases[] diseases = new Diseases[]
-            {
-                new Diseases()
-                {
-                    Sym1="coughing",
-                    Sym2="headache",
-                    Sym3="hurt glatat",
-                    Sym4="temperature",
-                    Sym5="malaise"
-                },
-                new Diseases()
-                {
-                    Sym1="seeing double;",
-                    Sym2="the inability to straighten legs",
-                    Sym4="stiff neck",
-                    Sym5="skin rash"
-                }
-            };
-
-            IDataView batchDiseases = _mlContext.Data.LoadFromEnumerable<Diseases>(diseases);
+            IDataView batchDiseases = _mlContext.Data.LoadFromEnumerable<Diseases>(list);
 
             var predictedResults = _mlContext.Data.CreateEnumerable<Diseases>(batchDiseases, reuseRowObject: false);
 
+            List<string> translatedDiseases = new List<string>();
+
             foreach (Diseases prediction in predictedResults)
             {
-                Console.WriteLine($"Prediction: {_predEngine.Predict(prediction).Disease}");
+                translatedDiseases.Add(_predEngine.Predict(prediction).Disease);
             }
+
+            return translatedDiseases;
         }
     }
 }

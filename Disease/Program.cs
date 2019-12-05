@@ -26,25 +26,35 @@ namespace Disease
             //csv.Write(trainPath, resultShuffle);
 
             var dataSet = NeuralNetwork.LoadData(trainPath);
-            //var pipeLine = NeuralNetwork.ProcessData();
-            //NeuralNetwork.BuildAndTrainModel(dataSet, pipeLine, 0.2);
-            //NeuralNetwork.Evaluate(dataSet.Schema);
+            var pipeLine = NeuralNetwork.ProcessData();
+            NeuralNetwork.BuildAndTrainModel(dataSet, pipeLine, 0.3);
+            NeuralNetwork.Evaluate(dataSet.Schema);
 
-            NeuralNetwork.PredictDiseases();
-
-
-            Console.WriteLine($"*************************************************************************************************************");
-
-            NeuralNetwork.PredictDisease(new Diseases()
+            Diseases[] diseases = new Diseases[]
             {
-                Sym1 = "numbness of fingers",
-                Sym2 = "shoulder pain",
-                Sym3 = "pain at sharp movements",
-                Sym4 = "Pain behind the sternum",
-                Sym5 = "diarrhea",
-                Sym6 = "constipation"
-            });
+                new Diseases()
+                {
+                    Sym1="coughing",
+                    Sym2="headache",
+                    Sym3="hurt glatat",
+                    Sym4="temperature",
+                    Sym5="malaise"
+                },
+                new Diseases()
+                {
+                    Sym1="seeing double;",
+                    Sym2="the inability to straighten legs",
+                    Sym4="stiff neck",
+                    Sym5="skin rash"
+                }
+            };
 
+            var predictions = NeuralNetwork.PredictDiseases(diseases);
+            for (int i = 0; i < predictions.Count; i++)
+            {
+                Console.WriteLine($"{i + 1}) " + translate.TranslateText(predictions[i], "en-ru"));
+            }
+            
             Console.WriteLine(DateTime.Now.ToString());
             Console.WriteLine($"*************************************************************************************************************");
         }
