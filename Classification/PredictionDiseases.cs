@@ -6,5 +6,8 @@ namespace Classification
     {
         [ColumnName("PredictedLabel")]
         public string Disease { get; set; }
+
+        [ColumnName("Score")]
+        public float[] Score { get; set; }
     }
 }

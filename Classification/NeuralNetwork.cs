@@ -1,7 +1,10 @@
 ﻿using Microsoft.ML;
+using Microsoft.ML.Data;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Text;
 using static Microsoft.ML.DataOperationsCatalog;
 
 namespace Classification
@@ -70,21 +73,24 @@ namespace Classification
 
             SaveModelAsFile(_mlContext, trainingDataViewSchema, _trainedModel);
         }
-        public static void PredictDisease(Diseases diseases)
+        public static Dictionary<string, float> PredictDisease(Diseases diseases)
         {
-            ITransformer loadedModel = _mlContext.Model.Load(_modelPath, out var modelInputSchema);
+            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+            Encoding.GetEncoding(1251);
 
+            ITransformer loadedModel = _mlContext.Model.Load(_modelPath, out var modelInputSchema);
             _predEngine = _mlContext.Model.CreatePredictionEngine<Diseases, PredictionDiseases>(loadedModel);
 
             var prediction = _predEngine.Predict(diseases);
 
-            Console.WriteLine($"=============== Single Prediction - Result: {prediction.Disease} ===============");
+            return GetScoresWithLabelsSorted(_predEngine.OutputSchema, "Score", prediction.Score)
+                .Take(10)
+                .Where(x => x.Value >= 0.2)
+                .ToDictionary(i => i.Key, i => i.Value);
         }
         private static void SaveModelAsFile(MLContext mlContext, DataViewSchema trainingDataViewSchema, ITransformer trainedModel)
         {
             mlContext.Model.Save(trainedModel, trainingDataViewSchema, _modelPath);
-
-            Console.WriteLine("The model is saved to {0}", _modelPath);
         }
 
         public static List<string> PredictDiseases(IEnumerable<Diseases> list)
@@ -105,5 +111,25 @@ namespace Classification
 
             return translatedDiseases;
         }
+
+        private static Dictionary<string, float> GetScoresWithLabelsSorted(DataViewSchema schema, string name, float[] scores)
+        {
+            Dictionary<string, float> result = new Dictionary<string, float>();
+
+            var column = schema.GetColumnOrNull(name);
+
+            var slotNames = new VBuffer<ReadOnlyMemory<char>>();
+            column.Value.GetSlotNames(ref slotNames);
+            var names = new string[slotNames.Length];
+            var num = 0;
+
+            foreach (var denseValue in slotNames.DenseValues())
+            {
+                result.Add(denseValue.ToString(), scores[num++]);
+            }
+
+            return result.OrderByDescending(c => c.Value).ToDictionary(i => i.Key, i => i.Value);
+        }
+
     }
 }
