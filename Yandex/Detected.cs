@@ -1,4 +1,4 @@
-﻿namespace TranslateYandex
+﻿namespace Yandex
 {
     public class Detected
     {

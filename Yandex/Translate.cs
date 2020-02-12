@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 
-namespace TranslateYandex
+namespace Yandex
 {
     public class Translate
     {

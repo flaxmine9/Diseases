@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disease", "Disease\Disease.csproj", "{E5A5EB01-3299-4E02-8F34-FC9179FF7280}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Disease", "Disease\Disease.csproj", "{E5A5EB01-3299-4E02-8F34-FC9179FF7280}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSV", "CSV\CSV.csproj", "{BAC38681-9532-4EFD-8E2E-F8A2E87E4508}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSV", "CSV\CSV.csproj", "{BAC38681-9532-4EFD-8E2E-F8A2E87E4508}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranslateYandex", "TranslateYandex\TranslateYandex.csproj", "{7990E8A9-3318-4AC9-806F-8769342CA411}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classification", "Classification\Classification.csproj", "{198A675D-5BC9-4F03-AAC5-FCFCF10E8ADD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classification", "Classification\Classification.csproj", "{198A675D-5BC9-4F03-AAC5-FCFCF10E8ADD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yandex", "Yandex\Yandex.csproj", "{B5E6C86E-B65C-4E22-BA4F-93BD9CFC9C52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,14 +35,6 @@ Global
 		{BAC38681-9532-4EFD-8E2E-F8A2E87E4508}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BAC38681-9532-4EFD-8E2E-F8A2E87E4508}.Release|x64.ActiveCfg = Release|Any CPU
 		{BAC38681-9532-4EFD-8E2E-F8A2E87E4508}.Release|x64.Build.0 = Release|Any CPU
-		{7990E8A9-3318-4AC9-806F-8769342CA411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7990E8A9-3318-4AC9-806F-8769342CA411}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7990E8A9-3318-4AC9-806F-8769342CA411}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{7990E8A9-3318-4AC9-806F-8769342CA411}.Debug|x64.Build.0 = Debug|Any CPU
-		{7990E8A9-3318-4AC9-806F-8769342CA411}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7990E8A9-3318-4AC9-806F-8769342CA411}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7990E8A9-3318-4AC9-806F-8769342CA411}.Release|x64.ActiveCfg = Release|Any CPU
-		{7990E8A9-3318-4AC9-806F-8769342CA411}.Release|x64.Build.0 = Release|Any CPU
 		{198A675D-5BC9-4F03-AAC5-FCFCF10E8ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{198A675D-5BC9-4F03-AAC5-FCFCF10E8ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{198A675D-5BC9-4F03-AAC5-FCFCF10E8ADD}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -51,6 +43,14 @@ Global
 		{198A675D-5BC9-4F03-AAC5-FCFCF10E8ADD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{198A675D-5BC9-4F03-AAC5-FCFCF10E8ADD}.Release|x64.ActiveCfg = Release|Any CPU
 		{198A675D-5BC9-4F03-AAC5-FCFCF10E8ADD}.Release|x64.Build.0 = Release|Any CPU
+		{B5E6C86E-B65C-4E22-BA4F-93BD9CFC9C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E6C86E-B65C-4E22-BA4F-93BD9CFC9C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E6C86E-B65C-4E22-BA4F-93BD9CFC9C52}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B5E6C86E-B65C-4E22-BA4F-93BD9CFC9C52}.Debug|x64.Build.0 = Debug|Any CPU
+		{B5E6C86E-B65C-4E22-BA4F-93BD9CFC9C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E6C86E-B65C-4E22-BA4F-93BD9CFC9C52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5E6C86E-B65C-4E22-BA4F-93BD9CFC9C52}.Release|x64.ActiveCfg = Release|Any CPU
+		{B5E6C86E-B65C-4E22-BA4F-93BD9CFC9C52}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

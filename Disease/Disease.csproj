@@ -9,7 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Classification\Classification.csproj" />
     <ProjectReference Include="..\CSV\CSV.csproj" />
-    <ProjectReference Include="..\TranslateYandex\TranslateYandex.csproj" />
+    <ProjectReference Include="..\Yandex\Yandex.csproj" />
   </ItemGroup>
 
 </Project>

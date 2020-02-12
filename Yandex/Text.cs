@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TranslateYandex
+namespace Yandex
 {
     public class Text
     {

@@ -1,9 +1,10 @@
 ﻿using Classification;
 using CSV;
+using Microsoft.ML;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using TranslateYandex;
+using Yandex;
 
 namespace Disease
 {
@@ -23,8 +24,9 @@ namespace Disease
 
             //csv.Write(pathDataSetRussian, resultShuffle);
 
-            var dataSet = NeuralNetwork.LoadData(trainPath);
-            var pipeLine = NeuralNetwork.ProcessData();
+            IDataView dataSet = NeuralNetwork.LoadData(trainPath);
+            IEstimator<ITransformer> pipeLine = NeuralNetwork.ProcessData();
+
             NeuralNetwork.BuildAndTrainModel(dataSet, pipeLine, 0.2);
             NeuralNetwork.Evaluate(dataSet.Schema);
 
