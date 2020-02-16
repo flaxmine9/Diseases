@@ -12,7 +12,7 @@ namespace Classification
     public static class NeuralNetwork
     {
         private static string _appPath => Path.GetDirectoryName(Environment.GetCommandLineArgs()[0]);
-        private static string _modelPath => Path.Combine(_appPath, "Models", "LbfgsPoissonRegression.zip");
+        private static string _modelPath => Path.Combine(_appPath, "Models", "SdcaLogisticRegression.zip");
 
         private static MLContext _mlContext;
         private static PredictionEngine<Diseases, PredictionDiseases> _predEngine;
@@ -43,7 +43,7 @@ namespace Classification
         }
         public static IEstimator<ITransformer> BuildAndTrainModel(IDataView trainingDataView, IEstimator<ITransformer> pipeline, double testFraction)
         {
-            var trainingPipeline = pipeline.Append(_mlContext.MulticlassClassification.Trainers.SdcaMaximumEntropy("Label", "Features")
+            var trainingPipeline = pipeline.Append(_mlContext.MulticlassClassification.Trainers.OneVersusAll(_mlContext.BinaryClassification.Trainers.SdcaLogisticRegression("Label", "Features"), "Label")
                 .Append(_mlContext.Transforms.Conversion.MapKeyToValue("PredictedLabel")));
 
             TrainTestData dataSplit = _mlContext.Data.TrainTestSplit(trainingDataView, testFraction: testFraction);
