@@ -52,7 +52,7 @@ namespace CSV
                     list[i].Sym3,
                     list[i].Sym4,
                     list[i].Sym5,
-                    list[i].Sym6,
+                    list[i].Sym6
                 };
 
                 for (int j = 0; j < 8; j++)
@@ -69,6 +69,8 @@ namespace CSV
                         Sym4 = resultShuffle[4],
                         Sym5 = resultShuffle[5],
                         Sym6 = resultShuffle[6],
+                        Sex = list[i].Sex,
+                        Age = list[i].Age
                     };
                     shuffleDiseases.Add(diseases);
                 }

@@ -47,6 +47,8 @@ namespace Yandex
                     Sym4 = TranslateText(list[i].Sym4, "ru-en"),
                     Sym5 = TranslateText(list[i].Sym5, "ru-en"),
                     Sym6 = TranslateText(list[i].Sym6, "ru-en"),
+                    Sex = TranslateText(list[i].Sex, "ru-en"),
+                    Age = list[i].Age
                 };
                 translatedDiseases.Add(diseases);
             }

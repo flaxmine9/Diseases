@@ -24,5 +24,11 @@ namespace Classification
 
         [LoadColumn(6)]
         public string Sym6 { get; set; }
+
+        [LoadColumn(7)]
+        public string Sex { get; set; }
+
+        [LoadColumn(8)]
+        public string Age { get; set; }
     }
 }

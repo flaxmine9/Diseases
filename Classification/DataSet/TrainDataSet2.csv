@@ -1,0 +1,809 @@
+Disease;Sym1;Sym2;Sym3;Sym4;Sym5;Sym6;Sex;Age
+Flu;coughing;a sore throat;headache;high temperature;malaise;weak muscle pain;men's;0
+Flu;weak muscle pain;malaise;a sore throat;high temperature;headache;coughing;men's;0
+Flu;weak muscle pain;headache;high temperature;coughing;a sore throat;malaise;men's;0
+Flu;coughing;headache;a sore throat;malaise;high temperature;weak muscle pain;men's;0
+Flu;weak muscle pain;headache;high temperature;malaise;a sore throat;coughing;men's;0
+Flu;malaise;high temperature;a sore throat;weak muscle pain;headache;coughing;men's;0
+Flu;weak muscle pain;high temperature;a sore throat;malaise;headache;coughing;men's;0
+Flu;high temperature;a sore throat;malaise;headache;coughing;weak muscle pain;men's;0
+Flu;muscle pain;headache;hurt glatat;cough;malaise;temperature;women's;0
+Flu;malaise;cough;temperature;headache;hurt glatat;muscle pain;women's;0
+Flu;cough;muscle pain;malaise;temperature;hurt glatat;headache;women's;0
+Flu;malaise;temperature;cough;hurt glatat;muscle pain;headache;women's;0
+Flu;headache;hurt glatat;temperature;cough;malaise;muscle pain;women's;0
+Flu;cough;malaise;hurt glatat;muscle pain;temperature;headache;women's;0
+Flu;cough;hurt glatat;malaise;temperature;muscle pain;headache;women's;0
+Flu;malaise;cough;temperature;headache;hurt glatat;muscle pain;women's;0
+Flu;joint pain;chills;cough;runny nose;heat;headache;men's;0
+Flu;runny nose;chills;heat;cough;joint pain;headache;men's;0
+Flu;chills;cough;heat;runny nose;headache;joint pain;men's;0
+Flu;joint pain;runny nose;chills;cough;headache;heat;men's;0
+Flu;heat;cough;joint pain;chills;headache;runny nose;men's;0
+Flu;cough;joint pain;headache;runny nose;heat;chills;men's;0
+Flu;heat;chills;joint pain;runny nose;headache;cough;men's;0
+Flu;joint pain;heat;cough;headache;runny nose;chills;men's;0
+Flu;cramps;muscle pain;temperature;headache with vomiting;headache;shortness of breath;women's;0
+Flu;headache;temperature;headache with vomiting;muscle pain;shortness of breath;cramps;women's;0
+Flu;muscle pain;cramps;headache with vomiting;headache;shortness of breath;temperature;women's;0
+Flu;cramps;shortness of breath;headache with vomiting;headache;temperature;muscle pain;women's;0
+Flu;headache;shortness of breath;cramps;headache with vomiting;muscle pain;temperature;women's;0
+Flu;headache;cramps;headache with vomiting;shortness of breath;temperature;muscle pain;women's;0
+Flu;muscle pain;cramps;headache with vomiting;temperature;headache;shortness of breath;women's;0
+Flu;temperature;headache;shortness of breath;muscle pain;headache with vomiting;cramps;women's;0
+Flu;weak muscle pain;a sore throat;coughing;high temperature;malaise;headache;women's;0
+Flu;weak muscle pain;a sore throat;headache;high temperature;malaise;coughing;women's;0
+Flu;malaise;high temperature;a sore throat;weak muscle pain;headache;coughing;women's;0
+Flu;malaise;coughing;a sore throat;high temperature;headache;weak muscle pain;women's;0
+Flu;weak muscle pain;high temperature;coughing;headache;a sore throat;malaise;women's;0
+Flu;a sore throat;high temperature;malaise;coughing;headache;weak muscle pain;women's;0
+Flu;high temperature;headache;weak muscle pain;coughing;malaise;a sore throat;women's;0
+Flu;malaise;high temperature;a sore throat;coughing;headache;weak muscle pain;women's;0
+Flu;cough;throat;fatigue;heat;pokrasnenie eyes;itchy eyes;men's;0
+Flu;heat;pokrasnenie eyes;cough;fatigue;itchy eyes;throat;men's;0
+Flu;itchy eyes;heat;cough;pokrasnenie eyes;fatigue;throat;men's;0
+Flu;fatigue;cough;throat;itchy eyes;pokrasnenie eyes;heat;men's;0
+Flu;throat;pokrasnenie eyes;itchy eyes;heat;cough;fatigue;men's;0
+Flu;heat;cough;throat;fatigue;pokrasnenie eyes;itchy eyes;men's;0
+Flu;pokrasnenie eyes;fatigue;throat;cough;heat;itchy eyes;men's;0
+Flu;throat;cough;itchy eyes;fatigue;pokrasnenie eyes;heat;men's;0
+Flu;headache with vomiting;shortness of breath;cramps;headache;muscle pain;temperature;women's;0
+Flu;headache;muscle pain;shortness of breath;cramps;temperature;headache with vomiting;women's;0
+Flu;temperature;headache with vomiting;headache;cramps;muscle pain;shortness of breath;women's;0
+Flu;headache;temperature;headache with vomiting;shortness of breath;muscle pain;cramps;women's;0
+Flu;muscle pain;shortness of breath;temperature;headache;headache with vomiting;cramps;women's;0
+Flu;headache;headache with vomiting;muscle pain;cramps;temperature;shortness of breath;women's;0
+Flu;shortness of breath;cramps;muscle pain;headache;temperature;headache with vomiting;women's;0
+Flu;cramps;shortness of breath;headache with vomiting;headache;temperature;muscle pain;women's;0
+Meningitis;sudden fever;vomiting;skin rash;severe headache;abdominal pain;double vision;women's;1
+Meningitis;sudden fever;abdominal pain;severe headache;double vision;vomiting;skin rash;women's;1
+Meningitis;abdominal pain;severe headache;skin rash;double vision;sudden fever;vomiting;women's;1
+Meningitis;abdominal pain;severe headache;sudden fever;skin rash;vomiting;double vision;women's;1
+Meningitis;abdominal pain;double vision;vomiting;skin rash;sudden fever;severe headache;women's;1
+Meningitis;vomiting;double vision;sudden fever;skin rash;severe headache;abdominal pain;women's;1
+Meningitis;double vision;sudden fever;severe headache;vomiting;abdominal pain;skin rash;women's;1
+Meningitis;vomiting;severe headache;sudden fever;double vision;abdominal pain;skin rash;women's;1
+Meningitis;fever;nausea;seeing double;stomach hurts;ISO;headache;men's;1
+Meningitis;fever;headache;stomach hurts;seeing double;nausea;ISO;men's;1
+Meningitis;stomach hurts;fever;headache;ISO;nausea;seeing double;men's;1
+Meningitis;fever;stomach hurts;headache;nausea;ISO;seeing double;men's;1
+Meningitis;nausea;fever;stomach hurts;headache;ISO;seeing double;men's;1
+Meningitis;stomach hurts;ISO;seeing double;fever;nausea;headache;men's;1
+Meningitis;stomach hurts;seeing double;nausea;headache;ISO;fever;men's;1
+Meningitis;seeing double;stomach hurts;fever;headache;ISO;nausea;men's;1
+Meningitis;stiff neck;strong photosensitivity;headache;vomiting;skin rash does not fade;the inability to straighten legs;women's;1
+Meningitis;the inability to straighten legs;vomiting;skin rash does not fade;strong photosensitivity;headache;stiff neck;women's;1
+Meningitis;stiff neck;skin rash does not fade;vomiting;headache;the inability to straighten legs;strong photosensitivity;women's;1
+Meningitis;headache;skin rash does not fade;vomiting;strong photosensitivity;the inability to straighten legs;stiff neck;women's;1
+Meningitis;strong photosensitivity;headache;the inability to straighten legs;vomiting;skin rash does not fade;stiff neck;women's;1
+Meningitis;skin rash does not fade;stiff neck;headache;strong photosensitivity;vomiting;the inability to straighten legs;women's;1
+Meningitis;stiff neck;vomiting;skin rash does not fade;the inability to straighten legs;headache;strong photosensitivity;women's;1
+Meningitis;strong photosensitivity;the inability to straighten legs;vomiting;headache;skin rash does not fade;stiff neck;women's;1
+Meningitis;skin rash;confusion;headache;can't straighten leg;the intractability of the occipital muscles;high temperature;men's;2
+Meningitis;skin rash;the intractability of the occipital muscles;confusion;headache;can't straighten leg;high temperature;men's;2
+Meningitis;the intractability of the occipital muscles;headache;high temperature;skin rash;can't straighten leg;confusion;men's;2
+Meningitis;headache;confusion;high temperature;skin rash;the intractability of the occipital muscles;can't straighten leg;men's;2
+Meningitis;headache;skin rash;the intractability of the occipital muscles;high temperature;can't straighten leg;confusion;men's;2
+Meningitis;headache;can't straighten leg;skin rash;confusion;the intractability of the occipital muscles;high temperature;men's;2
+Meningitis;high temperature;headache;skin rash;confusion;can't straighten leg;the intractability of the occipital muscles;men's;2
+Meningitis;confusion;the intractability of the occipital muscles;headache;can't straighten leg;high temperature;skin rash;men's;2
+Meningitis;nausea;seeing double;headache;stomach hurts;fever;ISO;men's;1
+Meningitis;fever;nausea;headache;ISO;stomach hurts;seeing double;men's;1
+Meningitis;headache;seeing double;stomach hurts;fever;nausea;ISO;men's;1
+Meningitis;stomach hurts;headache;nausea;ISO;fever;seeing double;men's;1
+Meningitis;nausea;stomach hurts;seeing double;fever;ISO;headache;men's;1
+Meningitis;seeing double;nausea;ISO;stomach hurts;headache;fever;men's;1
+Meningitis;headache;ISO;fever;stomach hurts;nausea;seeing double;men's;1
+Meningitis;stomach hurts;seeing double;nausea;ISO;fever;headache;men's;1
+Meningitis;abdominal pain;skin rash;double vision;sudden fever;vomiting;severe headache;women's;2
+Meningitis;vomiting;sudden fever;abdominal pain;severe headache;double vision;skin rash;women's;2
+Meningitis;abdominal pain;severe headache;vomiting;skin rash;double vision;sudden fever;women's;2
+Meningitis;severe headache;sudden fever;skin rash;vomiting;double vision;abdominal pain;women's;2
+Meningitis;double vision;severe headache;vomiting;abdominal pain;skin rash;sudden fever;women's;2
+Meningitis;skin rash;severe headache;double vision;abdominal pain;sudden fever;vomiting;women's;2
+Meningitis;severe headache;sudden fever;vomiting;skin rash;double vision;abdominal pain;women's;2
+Meningitis;skin rash;abdominal pain;sudden fever;double vision;severe headache;vomiting;women's;2
+Meningitis;vomiting;the inability to straighten legs;strong photosensitivity;skin rash does not fade;stiff neck;headache;women's;1
+Meningitis;stiff neck;the inability to straighten legs;skin rash does not fade;vomiting;strong photosensitivity;headache;women's;1
+Meningitis;strong photosensitivity;stiff neck;skin rash does not fade;vomiting;headache;the inability to straighten legs;women's;1
+Meningitis;skin rash does not fade;stiff neck;headache;the inability to straighten legs;strong photosensitivity;vomiting;women's;1
+Meningitis;headache;skin rash does not fade;stiff neck;strong photosensitivity;vomiting;the inability to straighten legs;women's;1
+Meningitis;headache;strong photosensitivity;vomiting;the inability to straighten legs;skin rash does not fade;stiff neck;women's;1
+Meningitis;skin rash does not fade;headache;the inability to straighten legs;vomiting;stiff neck;strong photosensitivity;women's;1
+Meningitis;stiff neck;skin rash does not fade;headache;vomiting;the inability to straighten legs;strong photosensitivity;women's;1
+Meningitis;the intractability of the occipital muscles;high temperature;confusion;skin rash;headache;can't straighten leg;men's;1
+Meningitis;high temperature;confusion;skin rash;headache;the intractability of the occipital muscles;can't straighten leg;men's;1
+Meningitis;the intractability of the occipital muscles;skin rash;high temperature;confusion;headache;can't straighten leg;men's;1
+Meningitis;skin rash;high temperature;the intractability of the occipital muscles;confusion;headache;can't straighten leg;men's;1
+Meningitis;skin rash;the intractability of the occipital muscles;high temperature;can't straighten leg;headache;confusion;men's;1
+Meningitis;high temperature;the intractability of the occipital muscles;headache;skin rash;confusion;can't straighten leg;men's;1
+Meningitis;the intractability of the occipital muscles;high temperature;confusion;headache;can't straighten leg;skin rash;men's;1
+Meningitis;headache;high temperature;confusion;the intractability of the occipital muscles;can't straighten leg;skin rash;men's;1
+Meningitis;stiff neck;the inability to straighten legs;vomiting;headache;strong photosensitivity;skin rash does not fade;women's;1
+Meningitis;vomiting;skin rash does not fade;headache;strong photosensitivity;the inability to straighten legs;stiff neck;women's;1
+Meningitis;strong photosensitivity;skin rash does not fade;vomiting;the inability to straighten legs;headache;stiff neck;women's;1
+Meningitis;skin rash does not fade;stiff neck;strong photosensitivity;vomiting;the inability to straighten legs;headache;women's;1
+Meningitis;skin rash does not fade;headache;the inability to straighten legs;vomiting;stiff neck;strong photosensitivity;women's;1
+Meningitis;skin rash does not fade;strong photosensitivity;headache;vomiting;the inability to straighten legs;stiff neck;women's;1
+Meningitis;headache;strong photosensitivity;skin rash does not fade;the inability to straighten legs;vomiting;stiff neck;women's;1
+Meningitis;stiff neck;the inability to straighten legs;vomiting;headache;strong photosensitivity;skin rash does not fade;women's;1
+bronchial asthma;cough;Palpitations;Blueness of the skin;dizziness;weakness;headache;men's;0
+bronchial asthma;Blueness of the skin;dizziness;headache;cough;Palpitations;weakness;men's;0
+bronchial asthma;Palpitations;cough;dizziness;weakness;headache;Blueness of the skin;men's;0
+bronchial asthma;Palpitations;cough;weakness;Blueness of the skin;dizziness;headache;men's;0
+bronchial asthma;Palpitations;dizziness;cough;Blueness of the skin;weakness;headache;men's;0
+bronchial asthma;dizziness;weakness;cough;headache;Blueness of the skin;Palpitations;men's;0
+bronchial asthma;weakness;Blueness of the skin;Palpitations;dizziness;cough;headache;men's;0
+bronchial asthma;dizziness;Palpitations;cough;weakness;headache;Blueness of the skin;men's;0
+bronchial asthma;small bluish discoloration of the skin;wheezing;palpitation of the heart;headache;shortness of breath;suffocation;women's;0
+bronchial asthma;suffocation;small bluish discoloration of the skin;headache;shortness of breath;palpitation of the heart;wheezing;women's;0
+bronchial asthma;headache;palpitation of the heart;suffocation;shortness of breath;wheezing;small bluish discoloration of the skin;women's;0
+bronchial asthma;small bluish discoloration of the skin;suffocation;headache;shortness of breath;wheezing;palpitation of the heart;women's;0
+bronchial asthma;shortness of breath;palpitation of the heart;small bluish discoloration of the skin;wheezing;suffocation;headache;women's;0
+bronchial asthma;headache;palpitation of the heart;suffocation;small bluish discoloration of the skin;shortness of breath;wheezing;women's;0
+bronchial asthma;headache;suffocation;palpitation of the heart;shortness of breath;small bluish discoloration of the skin;wheezing;women's;0
+bronchial asthma;wheezing;headache;palpitation of the heart;suffocation;shortness of breath;small bluish discoloration of the skin;women's;0
+bronchial asthma;shortness of breath;weakness;headache;palpitation of the heart;cough;wheezing;men's;1
+bronchial asthma;weakness;headache;shortness of breath;palpitation of the heart;cough;wheezing;men's;1
+bronchial asthma;headache;palpitation of the heart;cough;shortness of breath;wheezing;weakness;men's;1
+bronchial asthma;weakness;cough;shortness of breath;palpitation of the heart;wheezing;headache;men's;1
+bronchial asthma;headache;wheezing;cough;shortness of breath;weakness;palpitation of the heart;men's;1
+bronchial asthma;cough;wheezing;shortness of breath;weakness;headache;palpitation of the heart;men's;1
+bronchial asthma;shortness of breath;wheezing;palpitation of the heart;weakness;cough;headache;men's;1
+bronchial asthma;palpitation of the heart;shortness of breath;weakness;wheezing;headache;cough;men's;1
+bronchial asthma;Palpitations;headache;cough;weakness;dizziness;Blueness of the skin;men's;1
+bronchial asthma;weakness;Blueness of the skin;Palpitations;dizziness;headache;cough;men's;1
+bronchial asthma;dizziness;Palpitations;cough;weakness;headache;Blueness of the skin;men's;1
+bronchial asthma;weakness;Palpitations;headache;dizziness;cough;Blueness of the skin;men's;1
+bronchial asthma;Palpitations;weakness;cough;headache;dizziness;Blueness of the skin;men's;1
+bronchial asthma;cough;dizziness;headache;weakness;Palpitations;Blueness of the skin;men's;1
+bronchial asthma;Palpitations;Blueness of the skin;cough;dizziness;weakness;headache;men's;1
+bronchial asthma;cough;weakness;Blueness of the skin;headache;Palpitations;dizziness;men's;1
+bronchial asthma;swelling in the lips;Dry cough;breathing labored;swelling in the cheeks;vomiting;hoarseness;men's;1
+bronchial asthma;swelling in the lips;vomiting;breathing labored;hoarseness;Dry cough;swelling in the cheeks;men's;1
+bronchial asthma;vomiting;Dry cough;swelling in the lips;swelling in the cheeks;hoarseness;breathing labored;men's;1
+bronchial asthma;swelling in the cheeks;hoarseness;breathing labored;vomiting;swelling in the lips;Dry cough;men's;1
+bronchial asthma;Dry cough;vomiting;hoarseness;swelling in the lips;breathing labored;swelling in the cheeks;men's;1
+bronchial asthma;swelling in the lips;hoarseness;Dry cough;vomiting;breathing labored;swelling in the cheeks;men's;1
+bronchial asthma;vomiting;swelling in the cheeks;swelling in the lips;breathing labored;Dry cough;hoarseness;men's;1
+bronchial asthma;swelling in the cheeks;swelling in the lips;Dry cough;hoarseness;breathing labored;vomiting;men's;1
+bronchial asthma;headache;wheezing;palpitation of the heart;shortness of breath;weakness;cough;men's;1
+bronchial asthma;palpitation of the heart;cough;headache;shortness of breath;wheezing;weakness;men's;1
+bronchial asthma;palpitation of the heart;headache;weakness;shortness of breath;wheezing;cough;men's;1
+bronchial asthma;palpitation of the heart;cough;shortness of breath;headache;wheezing;weakness;men's;1
+bronchial asthma;wheezing;shortness of breath;palpitation of the heart;headache;cough;weakness;men's;1
+bronchial asthma;weakness;cough;wheezing;palpitation of the heart;shortness of breath;headache;men's;1
+bronchial asthma;shortness of breath;palpitation of the heart;headache;cough;weakness;wheezing;men's;1
+bronchial asthma;weakness;wheezing;cough;shortness of breath;palpitation of the heart;headache;men's;1
+bronchial asthma;swelling in the cheeks;breathing labored;Dry cough;vomiting;swelling in the lips;hoarseness;women's;1
+bronchial asthma;Dry cough;breathing labored;swelling in the cheeks;vomiting;hoarseness;swelling in the lips;women's;1
+bronchial asthma;breathing labored;hoarseness;swelling in the lips;vomiting;swelling in the cheeks;Dry cough;women's;1
+bronchial asthma;hoarseness;breathing labored;swelling in the cheeks;Dry cough;swelling in the lips;vomiting;women's;1
+bronchial asthma;vomiting;Dry cough;hoarseness;swelling in the cheeks;breathing labored;swelling in the lips;women's;1
+bronchial asthma;swelling in the cheeks;Dry cough;hoarseness;swelling in the lips;vomiting;breathing labored;women's;1
+bronchial asthma;swelling in the cheeks;swelling in the lips;hoarseness;Dry cough;vomiting;breathing labored;women's;1
+bronchial asthma;vomiting;hoarseness;swelling in the cheeks;swelling in the lips;Dry cough;breathing labored;women's;1
+bronchial asthma;wheezing;weakness;cough;headache;palpitation of the heart;shortness of breath;women's;1
+bronchial asthma;headache;weakness;palpitation of the heart;cough;wheezing;shortness of breath;women's;1
+bronchial asthma;cough;wheezing;palpitation of the heart;shortness of breath;headache;weakness;women's;1
+bronchial asthma;palpitation of the heart;headache;cough;wheezing;shortness of breath;weakness;women's;1
+bronchial asthma;headache;weakness;palpitation of the heart;shortness of breath;wheezing;cough;women's;1
+bronchial asthma;palpitation of the heart;weakness;shortness of breath;wheezing;headache;cough;women's;1
+bronchial asthma;shortness of breath;weakness;cough;wheezing;headache;palpitation of the heart;women's;1
+bronchial asthma;shortness of breath;headache;cough;palpitation of the heart;wheezing;weakness;women's;1
+bronchial asthma;Palpitations;headache;weakness;Blueness of the skin;dizziness;cough;men's;0
+bronchial asthma;dizziness;Blueness of the skin;headache;cough;Palpitations;weakness;men's;0
+bronchial asthma;headache;cough;Palpitations;dizziness;weakness;Blueness of the skin;men's;0
+bronchial asthma;Palpitations;Blueness of the skin;headache;cough;weakness;dizziness;men's;0
+bronchial asthma;Palpitations;cough;Blueness of the skin;dizziness;headache;weakness;men's;0
+bronchial asthma;weakness;Blueness of the skin;dizziness;Palpitations;headache;cough;men's;0
+bronchial asthma;cough;Palpitations;Blueness of the skin;weakness;headache;dizziness;men's;0
+bronchial asthma;Blueness of the skin;Palpitations;headache;dizziness;cough;weakness;men's;0
+bronchial asthma;wheezing;small bluish discoloration of the skin;headache;shortness of breath;suffocation;palpitation of the heart;women's;0
+bronchial asthma;headache;suffocation;wheezing;shortness of breath;small bluish discoloration of the skin;palpitation of the heart;women's;0
+bronchial asthma;shortness of breath;wheezing;headache;palpitation of the heart;small bluish discoloration of the skin;suffocation;women's;0
+bronchial asthma;small bluish discoloration of the skin;headache;palpitation of the heart;shortness of breath;suffocation;wheezing;women's;0
+bronchial asthma;wheezing;headache;small bluish discoloration of the skin;shortness of breath;suffocation;palpitation of the heart;women's;0
+bronchial asthma;headache;wheezing;shortness of breath;palpitation of the heart;small bluish discoloration of the skin;suffocation;women's;0
+bronchial asthma;wheezing;shortness of breath;headache;palpitation of the heart;small bluish discoloration of the skin;suffocation;women's;0
+bronchial asthma;palpitation of the heart;wheezing;small bluish discoloration of the skin;headache;shortness of breath;suffocation;women's;0
+bronchial asthma;palpitation of the heart;shortness of breath;headache;wheezing;weakness;cough;women's;3
+bronchial asthma;shortness of breath;headache;palpitation of the heart;weakness;cough;wheezing;women's;3
+bronchial asthma;shortness of breath;wheezing;weakness;cough;palpitation of the heart;headache;women's;3
+bronchial asthma;cough;weakness;wheezing;palpitation of the heart;headache;shortness of breath;women's;3
+bronchial asthma;wheezing;weakness;palpitation of the heart;shortness of breath;cough;headache;women's;3
+bronchial asthma;shortness of breath;palpitation of the heart;headache;cough;wheezing;weakness;women's;3
+bronchial asthma;wheezing;palpitation of the heart;shortness of breath;headache;cough;weakness;women's;3
+bronchial asthma;cough;palpitation of the heart;wheezing;headache;weakness;shortness of breath;women's;3
+bronchial asthma;breathing labored;hoarseness;Dry cough;swelling in the lips;vomiting;swelling in the cheeks;women's;3
+bronchial asthma;breathing labored;swelling in the lips;swelling in the cheeks;hoarseness;Dry cough;vomiting;women's;3
+bronchial asthma;swelling in the lips;swelling in the cheeks;breathing labored;Dry cough;hoarseness;vomiting;women's;3
+bronchial asthma;swelling in the cheeks;breathing labored;Dry cough;hoarseness;swelling in the lips;vomiting;women's;3
+bronchial asthma;hoarseness;breathing labored;swelling in the lips;swelling in the cheeks;Dry cough;vomiting;women's;3
+bronchial asthma;swelling in the lips;hoarseness;vomiting;Dry cough;swelling in the cheeks;breathing labored;women's;3
+bronchial asthma;swelling in the lips;vomiting;swelling in the cheeks;hoarseness;Dry cough;breathing labored;women's;3
+bronchial asthma;vomiting;Dry cough;swelling in the cheeks;breathing labored;hoarseness;swelling in the lips;women's;3
+bronchial asthma;swelling in the lips;hoarseness;vomiting;swelling in the cheeks;breathing labored;Dry cough;men's;3
+bronchial asthma;hoarseness;swelling in the lips;vomiting;Dry cough;breathing labored;swelling in the cheeks;men's;3
+bronchial asthma;Dry cough;swelling in the lips;breathing labored;swelling in the cheeks;vomiting;hoarseness;men's;3
+bronchial asthma;swelling in the cheeks;swelling in the lips;hoarseness;vomiting;Dry cough;breathing labored;men's;3
+bronchial asthma;breathing labored;hoarseness;Dry cough;vomiting;swelling in the lips;swelling in the cheeks;men's;3
+bronchial asthma;vomiting;breathing labored;hoarseness;swelling in the cheeks;Dry cough;swelling in the lips;men's;3
+bronchial asthma;swelling in the lips;swelling in the cheeks;vomiting;Dry cough;hoarseness;breathing labored;men's;3
+bronchial asthma;Dry cough;breathing labored;vomiting;swelling in the cheeks;swelling in the lips;hoarseness;men's;3
+angioedema;troubled breathing;hoarseness;swelling in the cheeks;vomiting;abdominal pain;swelling in the lips;men's;0
+angioedema;vomiting;hoarseness;swelling in the lips;swelling in the cheeks;abdominal pain;troubled breathing;men's;0
+angioedema;swelling in the lips;vomiting;swelling in the cheeks;troubled breathing;abdominal pain;hoarseness;men's;0
+angioedema;swelling in the lips;troubled breathing;hoarseness;abdominal pain;swelling in the cheeks;vomiting;men's;0
+angioedema;vomiting;swelling in the lips;swelling in the cheeks;troubled breathing;hoarseness;abdominal pain;men's;0
+angioedema;troubled breathing;vomiting;abdominal pain;swelling in the lips;swelling in the cheeks;hoarseness;men's;0
+angioedema;abdominal pain;swelling in the lips;swelling in the cheeks;hoarseness;troubled breathing;vomiting;men's;0
+angioedema;swelling in the cheeks;vomiting;abdominal pain;hoarseness;troubled breathing;swelling in the lips;men's;0
+angioedema;cough;nausea;hoarse voice;swelling in the area of language;porajenie of the oral mucosa;stomach hurts;women's;0
+angioedema;porajenie of the oral mucosa;cough;stomach hurts;nausea;hoarse voice;swelling in the area of language;women's;0
+angioedema;swelling in the area of language;stomach hurts;hoarse voice;porajenie of the oral mucosa;cough;nausea;women's;0
+angioedema;porajenie of the oral mucosa;nausea;cough;stomach hurts;swelling in the area of language;hoarse voice;women's;0
+angioedema;stomach hurts;hoarse voice;swelling in the area of language;cough;porajenie of the oral mucosa;nausea;women's;0
+angioedema;swelling in the area of language;cough;nausea;stomach hurts;porajenie of the oral mucosa;hoarse voice;women's;0
+angioedema;cough;swelling in the area of language;nausea;stomach hurts;hoarse voice;porajenie of the oral mucosa;women's;0
+angioedema;nausea;swelling in the area of language;cough;stomach hurts;hoarse voice;porajenie of the oral mucosa;women's;0
+angioedema;hoarseness;cough;swelling of the lips;abdominal pain;swelling of the cheeks;heavy breathing;men's;0
+angioedema;cough;hoarseness;swelling of the lips;swelling of the cheeks;abdominal pain;heavy breathing;men's;0
+angioedema;hoarseness;heavy breathing;swelling of the cheeks;cough;swelling of the lips;abdominal pain;men's;0
+angioedema;heavy breathing;swelling of the cheeks;hoarseness;abdominal pain;cough;swelling of the lips;men's;0
+angioedema;swelling of the lips;swelling of the cheeks;heavy breathing;cough;hoarseness;abdominal pain;men's;0
+angioedema;swelling of the cheeks;heavy breathing;cough;abdominal pain;hoarseness;swelling of the lips;men's;0
+angioedema;cough;hoarseness;swelling of the lips;swelling of the cheeks;heavy breathing;abdominal pain;men's;0
+angioedema;heavy breathing;swelling of the lips;swelling of the cheeks;cough;abdominal pain;hoarseness;men's;0
+angioedema;confusion;shortness of breath;cough;discomfort in the right upper quadrant;shortness of breath;weakness;women's;0
+angioedema;discomfort in the right upper quadrant;confusion;shortness of breath;cough;shortness of breath;weakness;women's;0
+angioedema;weakness;shortness of breath;cough;discomfort in the right upper quadrant;shortness of breath;confusion;women's;0
+angioedema;weakness;discomfort in the right upper quadrant;shortness of breath;shortness of breath;confusion;cough;women's;0
+angioedema;shortness of breath;weakness;confusion;discomfort in the right upper quadrant;cough;shortness of breath;women's;0
+angioedema;shortness of breath;discomfort in the right upper quadrant;cough;weakness;shortness of breath;confusion;women's;0
+angioedema;weakness;discomfort in the right upper quadrant;shortness of breath;cough;confusion;shortness of breath;women's;0
+angioedema;weakness;shortness of breath;shortness of breath;cough;discomfort in the right upper quadrant;confusion;women's;0
+angioedema;abdominal pain;swelling in the cheeks;hoarseness;vomiting;swelling in the lips;troubled breathing;men's;0
+angioedema;abdominal pain;troubled breathing;hoarseness;swelling in the lips;swelling in the cheeks;vomiting;men's;0
+angioedema;troubled breathing;swelling in the lips;swelling in the cheeks;hoarseness;vomiting;abdominal pain;men's;0
+angioedema;swelling in the cheeks;hoarseness;abdominal pain;troubled breathing;swelling in the lips;vomiting;men's;0
+angioedema;abdominal pain;hoarseness;swelling in the lips;vomiting;troubled breathing;swelling in the cheeks;men's;0
+angioedema;vomiting;abdominal pain;troubled breathing;hoarseness;swelling in the cheeks;swelling in the lips;men's;0
+angioedema;swelling in the lips;swelling in the cheeks;abdominal pain;vomiting;hoarseness;troubled breathing;men's;0
+angioedema;hoarseness;vomiting;swelling in the cheeks;swelling in the lips;abdominal pain;troubled breathing;men's;0
+angioedema;swelling in the area of language;cough;hoarse voice;nausea;porajenie of the oral mucosa;stomach hurts;women's;0
+angioedema;cough;nausea;stomach hurts;swelling in the area of language;porajenie of the oral mucosa;hoarse voice;women's;0
+angioedema;porajenie of the oral mucosa;swelling in the area of language;stomach hurts;hoarse voice;nausea;cough;women's;0
+angioedema;stomach hurts;hoarse voice;nausea;cough;porajenie of the oral mucosa;swelling in the area of language;women's;0
+angioedema;nausea;porajenie of the oral mucosa;stomach hurts;swelling in the area of language;cough;hoarse voice;women's;0
+angioedema;hoarse voice;cough;swelling in the area of language;nausea;stomach hurts;porajenie of the oral mucosa;women's;0
+angioedema;swelling in the area of language;hoarse voice;stomach hurts;nausea;cough;porajenie of the oral mucosa;women's;0
+angioedema;swelling in the area of language;hoarse voice;nausea;cough;stomach hurts;porajenie of the oral mucosa;women's;0
+angioedema;heavy breathing;swelling of the lips;swelling of the cheeks;abdominal pain;hoarseness;cough;men's;0
+angioedema;hoarseness;swelling of the cheeks;heavy breathing;cough;swelling of the lips;abdominal pain;men's;0
+angioedema;abdominal pain;cough;heavy breathing;swelling of the lips;swelling of the cheeks;hoarseness;men's;0
+angioedema;heavy breathing;cough;swelling of the lips;hoarseness;swelling of the cheeks;abdominal pain;men's;0
+angioedema;swelling of the cheeks;swelling of the lips;heavy breathing;cough;abdominal pain;hoarseness;men's;0
+angioedema;swelling of the lips;hoarseness;swelling of the cheeks;abdominal pain;heavy breathing;cough;men's;0
+angioedema;cough;hoarseness;heavy breathing;swelling of the cheeks;abdominal pain;swelling of the lips;men's;0
+angioedema;swelling of the cheeks;cough;hoarseness;swelling of the lips;abdominal pain;heavy breathing;men's;0
+angioedema;cough;shortness of breath;confusion;shortness of breath;weakness;discomfort in the right upper quadrant;women's;0
+angioedema;shortness of breath;shortness of breath;confusion;cough;discomfort in the right upper quadrant;weakness;women's;0
+angioedema;confusion;discomfort in the right upper quadrant;weakness;shortness of breath;cough;shortness of breath;women's;0
+angioedema;shortness of breath;shortness of breath;cough;weakness;confusion;discomfort in the right upper quadrant;women's;0
+angioedema;confusion;cough;shortness of breath;weakness;shortness of breath;discomfort in the right upper quadrant;women's;0
+angioedema;confusion;shortness of breath;shortness of breath;cough;discomfort in the right upper quadrant;weakness;women's;0
+angioedema;shortness of breath;cough;weakness;confusion;shortness of breath;discomfort in the right upper quadrant;women's;0
+angioedema;cough;discomfort in the right upper quadrant;weakness;confusion;shortness of breath;shortness of breath;women's;0
+heart failure;dizziness;swelling;weakness;shortness of breath;increased heartbeat;swelling in the lower legs;men's;0
+heart failure;increased heartbeat;swelling in the lower legs;dizziness;weakness;shortness of breath;swelling;men's;0
+heart failure;weakness;swelling;increased heartbeat;dizziness;swelling in the lower legs;shortness of breath;men's;0
+heart failure;increased heartbeat;weakness;dizziness;swelling;swelling in the lower legs;shortness of breath;men's;0
+heart failure;weakness;swelling in the lower legs;shortness of breath;dizziness;increased heartbeat;swelling;men's;0
+heart failure;swelling in the lower legs;swelling;dizziness;weakness;shortness of breath;increased heartbeat;men's;0
+heart failure;shortness of breath;weakness;swelling in the lower legs;increased heartbeat;dizziness;swelling;men's;0
+heart failure;shortness of breath;increased heartbeat;weakness;dizziness;swelling in the lower legs;swelling;men's;0
+heart failure;shortness of breath;fatigue;swelling in the lower legs;shortness of breath;fatigue;swelling in the abdomen;women's;0
+heart failure;shortness of breath;swelling in the abdomen;shortness of breath;fatigue;swelling in the lower legs;fatigue;women's;0
+heart failure;swelling in the lower legs;fatigue;shortness of breath;fatigue;swelling in the abdomen;shortness of breath;women's;0
+heart failure;fatigue;swelling in the abdomen;shortness of breath;fatigue;shortness of breath;swelling in the lower legs;women's;0
+heart failure;fatigue;shortness of breath;fatigue;swelling in the lower legs;swelling in the abdomen;shortness of breath;women's;0
+heart failure;shortness of breath;fatigue;shortness of breath;fatigue;swelling in the abdomen;swelling in the lower legs;women's;0
+heart failure;swelling in the abdomen;shortness of breath;fatigue;fatigue;shortness of breath;swelling in the lower legs;women's;0
+heart failure;fatigue;swelling in the abdomen;fatigue;swelling in the lower legs;shortness of breath;shortness of breath;women's;0
+heart failure;swelling in the lower legs;edema;heartbeat;fatigue;cough;swelling in the abdomen;women's;0
+heart failure;cough;swelling in the lower legs;swelling in the abdomen;heartbeat;fatigue;edema;women's;0
+heart failure;swelling in the abdomen;edema;swelling in the lower legs;heartbeat;fatigue;cough;women's;0
+heart failure;edema;fatigue;swelling in the abdomen;cough;heartbeat;swelling in the lower legs;women's;0
+heart failure;fatigue;edema;swelling in the abdomen;heartbeat;cough;swelling in the lower legs;women's;0
+heart failure;cough;heartbeat;swelling in the abdomen;fatigue;swelling in the lower legs;edema;women's;0
+heart failure;swelling in the abdomen;fatigue;swelling in the lower legs;cough;edema;heartbeat;women's;0
+heart failure;swelling in the abdomen;edema;fatigue;swelling in the lower legs;cough;heartbeat;women's;0
+heart failure;weakness;anxiety;pain behind the breastbone;shortness of breath;excessive sweating;pain in the hands;men's;0
+heart failure;pain behind the breastbone;excessive sweating;shortness of breath;weakness;pain in the hands;anxiety;men's;0
+heart failure;weakness;excessive sweating;shortness of breath;pain behind the breastbone;anxiety;pain in the hands;men's;0
+heart failure;shortness of breath;pain in the hands;anxiety;pain behind the breastbone;excessive sweating;weakness;men's;0
+heart failure;pain in the hands;shortness of breath;pain behind the breastbone;anxiety;excessive sweating;weakness;men's;0
+heart failure;anxiety;pain behind the breastbone;pain in the hands;excessive sweating;weakness;shortness of breath;men's;0
+heart failure;anxiety;pain in the hands;pain behind the breastbone;weakness;excessive sweating;shortness of breath;men's;0
+heart failure;anxiety;excessive sweating;shortness of breath;weakness;pain in the hands;pain behind the breastbone;men's;0
+heart failure;swelling in the lower legs;weakness;dizziness;increased heartbeat;shortness of breath;swelling;men's;0
+heart failure;dizziness;shortness of breath;weakness;swelling in the lower legs;increased heartbeat;swelling;men's;0
+heart failure;swelling in the lower legs;shortness of breath;increased heartbeat;dizziness;swelling;weakness;men's;0
+heart failure;swelling in the lower legs;swelling;shortness of breath;dizziness;increased heartbeat;weakness;men's;0
+heart failure;shortness of breath;dizziness;swelling;increased heartbeat;swelling in the lower legs;weakness;men's;0
+heart failure;dizziness;shortness of breath;swelling;swelling in the lower legs;increased heartbeat;weakness;men's;0
+heart failure;swelling;swelling in the lower legs;shortness of breath;dizziness;weakness;increased heartbeat;men's;0
+heart failure;swelling in the lower legs;increased heartbeat;dizziness;swelling;shortness of breath;weakness;men's;0
+heart failure;fatigue;swelling in the lower legs;shortness of breath;shortness of breath;swelling in the abdomen;fatigue;women's;0
+heart failure;shortness of breath;fatigue;swelling in the lower legs;fatigue;shortness of breath;swelling in the abdomen;women's;0
+heart failure;swelling in the lower legs;fatigue;fatigue;shortness of breath;shortness of breath;swelling in the abdomen;women's;0
+heart failure;shortness of breath;swelling in the abdomen;fatigue;shortness of breath;fatigue;swelling in the lower legs;women's;0
+heart failure;swelling in the lower legs;shortness of breath;shortness of breath;fatigue;swelling in the abdomen;fatigue;women's;0
+heart failure;shortness of breath;fatigue;fatigue;swelling in the abdomen;swelling in the lower legs;shortness of breath;women's;0
+heart failure;shortness of breath;shortness of breath;fatigue;fatigue;swelling in the abdomen;swelling in the lower legs;women's;0
+heart failure;swelling in the abdomen;shortness of breath;fatigue;fatigue;shortness of breath;swelling in the lower legs;women's;0
+heart failure;swelling in the lower legs;swelling in the abdomen;fatigue;heartbeat;cough;edema;women's;0
+heart failure;fatigue;cough;heartbeat;swelling in the lower legs;swelling in the abdomen;edema;women's;0
+heart failure;swelling in the abdomen;heartbeat;cough;edema;fatigue;swelling in the lower legs;women's;0
+heart failure;heartbeat;swelling in the lower legs;swelling in the abdomen;edema;cough;fatigue;women's;0
+heart failure;edema;heartbeat;swelling in the lower legs;fatigue;cough;swelling in the abdomen;women's;0
+heart failure;heartbeat;swelling in the abdomen;fatigue;cough;edema;swelling in the lower legs;women's;0
+heart failure;fatigue;edema;cough;swelling in the lower legs;heartbeat;swelling in the abdomen;women's;0
+heart failure;swelling in the abdomen;heartbeat;edema;swelling in the lower legs;fatigue;cough;women's;0
+heart failure;anxiety;shortness of breath;pain behind the breastbone;weakness;pain in the hands;excessive sweating;men's;0
+heart failure;excessive sweating;weakness;pain behind the breastbone;pain in the hands;shortness of breath;anxiety;men's;0
+heart failure;shortness of breath;pain in the hands;excessive sweating;pain behind the breastbone;anxiety;weakness;men's;0
+heart failure;anxiety;shortness of breath;pain behind the breastbone;weakness;excessive sweating;pain in the hands;men's;0
+heart failure;excessive sweating;anxiety;pain in the hands;pain behind the breastbone;shortness of breath;weakness;men's;0
+heart failure;pain behind the breastbone;shortness of breath;pain in the hands;weakness;excessive sweating;anxiety;men's;0
+heart failure;pain in the hands;pain behind the breastbone;shortness of breath;anxiety;excessive sweating;weakness;men's;0
+heart failure;pain in the hands;excessive sweating;anxiety;pain behind the breastbone;weakness;shortness of breath;men's;0
+myocardial infarction;nausea;dizziness;pain in the neck;the rhythm of the heart;headache;weakness;men's;3
+myocardial infarction;weakness;headache;pain in the neck;the rhythm of the heart;dizziness;nausea;men's;3
+myocardial infarction;nausea;the rhythm of the heart;pain in the neck;headache;weakness;dizziness;men's;3
+myocardial infarction;pain in the neck;the rhythm of the heart;dizziness;nausea;weakness;headache;men's;3
+myocardial infarction;headache;nausea;pain in the neck;dizziness;the rhythm of the heart;weakness;men's;3
+myocardial infarction;nausea;dizziness;pain in the neck;weakness;the rhythm of the heart;headache;men's;3
+myocardial infarction;dizziness;weakness;headache;nausea;the rhythm of the heart;pain in the neck;men's;3
+myocardial infarction;dizziness;the rhythm of the heart;nausea;headache;weakness;pain in the neck;men's;3
+myocardial infarction;excessive sweating;nausea;loss of consciousness;pain in the neck;pain in the shoulders;shortness of breath;men's;3
+myocardial infarction;loss of consciousness;pain in the neck;pain in the shoulders;shortness of breath;nausea;excessive sweating;men's;3
+myocardial infarction;pain in the shoulders;loss of consciousness;shortness of breath;nausea;excessive sweating;pain in the neck;men's;3
+myocardial infarction;pain in the neck;shortness of breath;pain in the shoulders;excessive sweating;loss of consciousness;nausea;men's;3
+myocardial infarction;pain in the neck;shortness of breath;nausea;loss of consciousness;pain in the shoulders;excessive sweating;men's;3
+myocardial infarction;excessive sweating;nausea;shortness of breath;pain in the shoulders;pain in the neck;loss of consciousness;men's;3
+myocardial infarction;pain in the neck;shortness of breath;excessive sweating;loss of consciousness;pain in the shoulders;nausea;men's;3
+myocardial infarction;nausea;excessive sweating;pain in the shoulders;loss of consciousness;shortness of breath;pain in the neck;men's;3
+myocardial infarction;weakness;" nausea";sweating;pain in the hands;headache;high blood pressure;men's;3
+myocardial infarction;weakness;pain in the hands;" nausea";headache;high blood pressure;sweating;men's;3
+myocardial infarction;weakness;sweating;pain in the hands;" nausea";high blood pressure;headache;men's;3
+myocardial infarction;sweating;headache;" nausea";weakness;high blood pressure;pain in the hands;men's;3
+myocardial infarction;pain in the hands;high blood pressure;sweating;weakness;" nausea";headache;men's;3
+myocardial infarction;" nausea";headache;pain in the hands;high blood pressure;weakness;sweating;men's;3
+myocardial infarction;" nausea";headache;sweating;high blood pressure;pain in the hands;weakness;men's;3
+myocardial infarction;pain in the hands;sweating;weakness;headache;" nausea";high blood pressure;men's;3
+myocardial infarction;abdominal pain;increased pain;swollen belly;nausea;temperature;the pain is worse when radulenii on the stomach;men's;3
+myocardial infarction;abdominal pain;increased pain;temperature;the pain is worse when radulenii on the stomach;swollen belly;nausea;men's;3
+myocardial infarction;the pain is worse when radulenii on the stomach;nausea;temperature;abdominal pain;swollen belly;increased pain;men's;3
+myocardial infarction;nausea;increased pain;abdominal pain;swollen belly;the pain is worse when radulenii on the stomach;temperature;men's;3
+myocardial infarction;swollen belly;increased pain;nausea;abdominal pain;temperature;the pain is worse when radulenii on the stomach;men's;3
+myocardial infarction;the pain is worse when radulenii on the stomach;abdominal pain;nausea;increased pain;temperature;swollen belly;men's;3
+myocardial infarction;abdominal pain;increased pain;temperature;nausea;swollen belly;the pain is worse when radulenii on the stomach;men's;3
+myocardial infarction;abdominal pain;increased pain;the pain is worse when radulenii on the stomach;nausea;temperature;swollen belly;men's;3
+myocardial infarction;nausea;the rhythm of the heart;weakness;headache;dizziness;pain in the neck;men's;3
+myocardial infarction;weakness;dizziness;the rhythm of the heart;headache;pain in the neck;nausea;men's;3
+myocardial infarction;weakness;pain in the neck;nausea;headache;the rhythm of the heart;dizziness;men's;3
+myocardial infarction;dizziness;headache;weakness;nausea;pain in the neck;the rhythm of the heart;men's;3
+myocardial infarction;headache;the rhythm of the heart;weakness;pain in the neck;dizziness;nausea;men's;3
+myocardial infarction;weakness;headache;pain in the neck;the rhythm of the heart;nausea;dizziness;men's;3
+myocardial infarction;dizziness;the rhythm of the heart;weakness;nausea;headache;pain in the neck;men's;3
+myocardial infarction;nausea;headache;the rhythm of the heart;weakness;pain in the neck;dizziness;men's;3
+myocardial infarction;pain in the shoulders;shortness of breath;nausea;pain in the neck;excessive sweating;loss of consciousness;men's;3
+myocardial infarction;excessive sweating;pain in the neck;shortness of breath;nausea;pain in the shoulders;loss of consciousness;men's;3
+myocardial infarction;pain in the neck;excessive sweating;nausea;shortness of breath;pain in the shoulders;loss of consciousness;men's;3
+myocardial infarction;pain in the neck;pain in the shoulders;shortness of breath;nausea;excessive sweating;loss of consciousness;men's;3
+myocardial infarction;excessive sweating;pain in the shoulders;loss of consciousness;shortness of breath;pain in the neck;nausea;men's;3
+myocardial infarction;shortness of breath;nausea;pain in the shoulders;excessive sweating;loss of consciousness;pain in the neck;men's;3
+myocardial infarction;shortness of breath;pain in the neck;nausea;excessive sweating;loss of consciousness;pain in the shoulders;men's;3
+myocardial infarction;pain in the neck;pain in the shoulders;loss of consciousness;excessive sweating;nausea;shortness of breath;men's;3
+myocardial infarction;" nausea";sweating;weakness;pain in the hands;headache;high blood pressure;men's;3
+myocardial infarction;high blood pressure;headache;" nausea";sweating;weakness;pain in the hands;men's;3
+myocardial infarction;pain in the hands;weakness;headache;high blood pressure;sweating;" nausea";men's;3
+myocardial infarction;" nausea";weakness;headache;pain in the hands;high blood pressure;sweating;men's;3
+myocardial infarction;high blood pressure;" nausea";sweating;pain in the hands;headache;weakness;men's;3
+myocardial infarction;pain in the hands;" nausea";high blood pressure;weakness;headache;sweating;men's;3
+myocardial infarction;weakness;sweating;headache;" nausea";pain in the hands;high blood pressure;men's;3
+myocardial infarction;sweating;" nausea";high blood pressure;headache;weakness;pain in the hands;men's;3
+myocardial infarction;temperature;abdominal pain;increased pain;swollen belly;the pain is worse when radulenii on the stomach;nausea;women's;3
+myocardial infarction;abdominal pain;nausea;increased pain;swollen belly;temperature;the pain is worse when radulenii on the stomach;women's;3
+myocardial infarction;increased pain;abdominal pain;temperature;nausea;the pain is worse when radulenii on the stomach;swollen belly;women's;3
+myocardial infarction;nausea;the pain is worse when radulenii on the stomach;temperature;abdominal pain;increased pain;swollen belly;women's;3
+myocardial infarction;swollen belly;the pain is worse when radulenii on the stomach;increased pain;abdominal pain;temperature;nausea;women's;3
+myocardial infarction;abdominal pain;nausea;the pain is worse when radulenii on the stomach;increased pain;swollen belly;temperature;women's;3
+myocardial infarction;temperature;the pain is worse when radulenii on the stomach;nausea;increased pain;abdominal pain;swollen belly;women's;3
+myocardial infarction;temperature;swollen belly;the pain is worse when radulenii on the stomach;abdominal pain;increased pain;nausea;women's;3
+acute appendicitis;diarrhea;the pain is worse when radulenii on the stomach;nausea;temperature;constipation;the abdominal muscles are tense;men's;0
+acute appendicitis;temperature;diarrhea;constipation;the pain is worse when radulenii on the stomach;the abdominal muscles are tense;nausea;men's;0
+acute appendicitis;diarrhea;nausea;temperature;the abdominal muscles are tense;constipation;the pain is worse when radulenii on the stomach;men's;0
+acute appendicitis;the pain is worse when radulenii on the stomach;temperature;nausea;diarrhea;the abdominal muscles are tense;constipation;men's;0
+acute appendicitis;the pain is worse when radulenii on the stomach;the abdominal muscles are tense;temperature;nausea;diarrhea;constipation;men's;0
+acute appendicitis;nausea;the pain is worse when radulenii on the stomach;diarrhea;constipation;temperature;the abdominal muscles are tense;men's;0
+acute appendicitis;nausea;the pain is worse when radulenii on the stomach;diarrhea;the abdominal muscles are tense;constipation;temperature;men's;0
+acute appendicitis;diarrhea;temperature;the pain is worse when radulenii on the stomach;nausea;the abdominal muscles are tense;constipation;men's;0
+acute appendicitis;increased pain in the abdomen radulenii;swollen belly;constipation;nausea;bloating;temperature;women's;0
+acute appendicitis;nausea;increased pain in the abdomen radulenii;constipation;bloating;swollen belly;temperature;women's;0
+acute appendicitis;nausea;swollen belly;increased pain in the abdomen radulenii;temperature;constipation;bloating;women's;0
+acute appendicitis;bloating;nausea;swollen belly;increased pain in the abdomen radulenii;temperature;constipation;women's;0
+acute appendicitis;constipation;swollen belly;bloating;increased pain in the abdomen radulenii;nausea;temperature;women's;0
+acute appendicitis;nausea;increased pain in the abdomen radulenii;bloating;temperature;swollen belly;constipation;women's;0
+acute appendicitis;bloating;temperature;nausea;increased pain in the abdomen radulenii;swollen belly;constipation;women's;0
+acute appendicitis;bloating;increased pain in the abdomen radulenii;swollen belly;nausea;constipation;temperature;women's;0
+acute appendicitis;temperature;diarrhea;swollen belly;constipation;vomiting;abdominal pain;men's;0
+acute appendicitis;diarrhea;temperature;swollen belly;constipation;abdominal pain;vomiting;men's;0
+acute appendicitis;swollen belly;abdominal pain;vomiting;constipation;temperature;diarrhea;men's;0
+acute appendicitis;constipation;abdominal pain;diarrhea;vomiting;temperature;swollen belly;men's;0
+acute appendicitis;diarrhea;swollen belly;temperature;abdominal pain;constipation;vomiting;men's;0
+acute appendicitis;abdominal pain;temperature;vomiting;swollen belly;diarrhea;constipation;men's;0
+acute appendicitis;temperature;constipation;vomiting;abdominal pain;diarrhea;swollen belly;men's;0
+acute appendicitis;diarrhea;temperature;abdominal pain;constipation;swollen belly;vomiting;men's;0
+acute appendicitis;Pain in the right upper quadrant;unpleasant taste in the mouth;bloating;headache;temperature;The tension of the abdominal muscles;men's;0
+acute appendicitis;The tension of the abdominal muscles;bloating;temperature;Pain in the right upper quadrant;unpleasant taste in the mouth;headache;men's;0
+acute appendicitis;The tension of the abdominal muscles;unpleasant taste in the mouth;temperature;bloating;headache;Pain in the right upper quadrant;men's;0
+acute appendicitis;bloating;unpleasant taste in the mouth;Pain in the right upper quadrant;temperature;The tension of the abdominal muscles;headache;men's;0
+acute appendicitis;unpleasant taste in the mouth;Pain in the right upper quadrant;headache;temperature;The tension of the abdominal muscles;bloating;men's;0
+acute appendicitis;bloating;temperature;Pain in the right upper quadrant;unpleasant taste in the mouth;The tension of the abdominal muscles;headache;men's;0
+acute appendicitis;headache;unpleasant taste in the mouth;The tension of the abdominal muscles;Pain in the right upper quadrant;bloating;temperature;men's;0
+acute appendicitis;unpleasant taste in the mouth;The tension of the abdominal muscles;Pain in the right upper quadrant;temperature;bloating;headache;men's;0
+acute appendicitis;The tension of the abdominal muscles;unpleasant taste in the mouth;bloating;temperature;headache;Pain in the right upper quadrant;men's;0
+acute appendicitis;bloating;temperature;The tension of the abdominal muscles;headache;unpleasant taste in the mouth;Pain in the right upper quadrant;men's;0
+acute appendicitis;The tension of the abdominal muscles;bloating;temperature;Pain in the right upper quadrant;unpleasant taste in the mouth;headache;men's;0
+acute appendicitis;The tension of the abdominal muscles;headache;Pain in the right upper quadrant;unpleasant taste in the mouth;bloating;temperature;men's;0
+acute appendicitis;bloating;temperature;The tension of the abdominal muscles;headache;unpleasant taste in the mouth;Pain in the right upper quadrant;men's;0
+acute appendicitis;Pain in the right upper quadrant;bloating;unpleasant taste in the mouth;The tension of the abdominal muscles;headache;temperature;men's;0
+acute appendicitis;temperature;headache;unpleasant taste in the mouth;bloating;Pain in the right upper quadrant;The tension of the abdominal muscles;men's;0
+acute appendicitis;unpleasant taste in the mouth;Pain in the right upper quadrant;bloating;headache;temperature;The tension of the abdominal muscles;men's;0
+acute appendicitis;Pain in the right upper quadrant;temperature;The tension of the abdominal muscles;headache;unpleasant taste in the mouth;bloating;women's;3
+acute appendicitis;temperature;The tension of the abdominal muscles;headache;unpleasant taste in the mouth;Pain in the right upper quadrant;bloating;women's;3
+acute appendicitis;headache;temperature;unpleasant taste in the mouth;Pain in the right upper quadrant;bloating;The tension of the abdominal muscles;women's;3
+acute appendicitis;headache;The tension of the abdominal muscles;unpleasant taste in the mouth;temperature;Pain in the right upper quadrant;bloating;women's;3
+acute appendicitis;The tension of the abdominal muscles;temperature;headache;unpleasant taste in the mouth;Pain in the right upper quadrant;bloating;women's;3
+acute appendicitis;unpleasant taste in the mouth;temperature;The tension of the abdominal muscles;bloating;Pain in the right upper quadrant;headache;women's;3
+acute appendicitis;Pain in the right upper quadrant;headache;temperature;bloating;unpleasant taste in the mouth;The tension of the abdominal muscles;women's;3
+acute appendicitis;temperature;bloating;Pain in the right upper quadrant;headache;unpleasant taste in the mouth;The tension of the abdominal muscles;women's;3
+acute appendicitis;temperature;nausea;constipation;the abdominal muscles are tense;the pain is worse when radulenii on the stomach;diarrhea;women's;3
+acute appendicitis;temperature;constipation;the pain is worse when radulenii on the stomach;the abdominal muscles are tense;diarrhea;nausea;women's;3
+acute appendicitis;diarrhea;constipation;temperature;nausea;the pain is worse when radulenii on the stomach;the abdominal muscles are tense;women's;3
+acute appendicitis;the pain is worse when radulenii on the stomach;the abdominal muscles are tense;temperature;constipation;diarrhea;nausea;women's;3
+acute appendicitis;diarrhea;temperature;the abdominal muscles are tense;the pain is worse when radulenii on the stomach;constipation;nausea;women's;3
+acute appendicitis;constipation;temperature;the abdominal muscles are tense;nausea;the pain is worse when radulenii on the stomach;diarrhea;women's;3
+acute appendicitis;the pain is worse when radulenii on the stomach;diarrhea;temperature;nausea;the abdominal muscles are tense;constipation;women's;3
+acute appendicitis;diarrhea;the pain is worse when radulenii on the stomach;the abdominal muscles are tense;nausea;constipation;temperature;women's;3
+acute appendicitis;vomiting;abdominal pain;temperature;swollen belly;constipation;diarrhea;women's;3
+acute appendicitis;swollen belly;diarrhea;constipation;temperature;abdominal pain;vomiting;women's;3
+acute appendicitis;diarrhea;vomiting;swollen belly;abdominal pain;constipation;temperature;women's;3
+acute appendicitis;diarrhea;vomiting;temperature;abdominal pain;constipation;swollen belly;women's;3
+acute appendicitis;temperature;swollen belly;diarrhea;constipation;abdominal pain;vomiting;women's;3
+acute appendicitis;abdominal pain;vomiting;temperature;constipation;diarrhea;swollen belly;women's;3
+acute appendicitis;vomiting;temperature;constipation;swollen belly;diarrhea;abdominal pain;women's;3
+acute appendicitis;abdominal pain;constipation;vomiting;swollen belly;diarrhea;temperature;women's;3
+acute appendicitis;the pain is worse when radulenii on the stomach;constipation;temperature;diarrhea;the abdominal muscles are tense;nausea;women's;3
+acute appendicitis;temperature;the pain is worse when radulenii on the stomach;nausea;constipation;the abdominal muscles are tense;diarrhea;women's;3
+acute appendicitis;nausea;diarrhea;temperature;the abdominal muscles are tense;the pain is worse when radulenii on the stomach;constipation;women's;3
+acute appendicitis;temperature;nausea;the pain is worse when radulenii on the stomach;constipation;diarrhea;the abdominal muscles are tense;women's;3
+acute appendicitis;diarrhea;temperature;nausea;constipation;the pain is worse when radulenii on the stomach;the abdominal muscles are tense;women's;3
+acute appendicitis;the abdominal muscles are tense;diarrhea;nausea;the pain is worse when radulenii on the stomach;temperature;constipation;women's;3
+acute appendicitis;diarrhea;the abdominal muscles are tense;nausea;temperature;the pain is worse when radulenii on the stomach;constipation;women's;3
+acute appendicitis;the pain is worse when radulenii on the stomach;diarrhea;temperature;constipation;the abdominal muscles are tense;nausea;women's;3
+cholecystitis;nausea;temperature rise;vomiting;Regular belching;bitter taste in the mouth;Pain in the right upper quadrant;men's;0
+cholecystitis;bitter taste in the mouth;Pain in the right upper quadrant;vomiting;nausea;temperature rise;Regular belching;men's;0
+cholecystitis;nausea;Pain in the right upper quadrant;bitter taste in the mouth;Regular belching;vomiting;temperature rise;men's;0
+cholecystitis;vomiting;nausea;Regular belching;bitter taste in the mouth;temperature rise;Pain in the right upper quadrant;men's;0
+cholecystitis;nausea;Regular belching;vomiting;Pain in the right upper quadrant;temperature rise;bitter taste in the mouth;men's;0
+cholecystitis;temperature rise;nausea;vomiting;Pain in the right upper quadrant;bitter taste in the mouth;Regular belching;men's;0
+cholecystitis;nausea;vomiting;temperature rise;bitter taste in the mouth;Pain in the right upper quadrant;Regular belching;men's;0
+cholecystitis;Pain in the right upper quadrant;vomiting;Regular belching;temperature rise;nausea;bitter taste in the mouth;men's;0
+cholecystitis;Low blood pressure;Shortness of breath;Yellowing of the skin;Loose stools;Pain in the right upper quadrant;Palpitations;women's;0
+cholecystitis;Loose stools;Low blood pressure;Shortness of breath;Palpitations;Yellowing of the skin;Pain in the right upper quadrant;women's;0
+cholecystitis;Pain in the right upper quadrant;Yellowing of the skin;Shortness of breath;Loose stools;Palpitations;Low blood pressure;women's;0
+cholecystitis;Yellowing of the skin;Low blood pressure;Shortness of breath;Loose stools;Pain in the right upper quadrant;Palpitations;women's;0
+cholecystitis;Shortness of breath;Pain in the right upper quadrant;Low blood pressure;Loose stools;Palpitations;Yellowing of the skin;women's;0
+cholecystitis;Palpitations;Loose stools;Yellowing of the skin;Low blood pressure;Pain in the right upper quadrant;Shortness of breath;women's;0
+cholecystitis;Low blood pressure;Pain in the right upper quadrant;Palpitations;Loose stools;Yellowing of the skin;Shortness of breath;women's;0
+cholecystitis;Low blood pressure;Shortness of breath;Loose stools;Yellowing of the skin;Palpitations;Pain in the right upper quadrant;women's;0
+cholecystitis;discomfort;an unpleasant sensation in the ureter;pain in the lower abdomen;burning sensation in perineum;turbid urine color;;men's;0
+cholecystitis;an unpleasant sensation in the ureter;discomfort;turbid urine color;burning sensation in perineum;;pain in the lower abdomen;men's;0
+cholecystitis;;discomfort;an unpleasant sensation in the ureter;turbid urine color;burning sensation in perineum;pain in the lower abdomen;men's;0
+cholecystitis;an unpleasant sensation in the ureter;turbid urine color;pain in the lower abdomen;discomfort;burning sensation in perineum;;men's;0
+cholecystitis;turbid urine color;pain in the lower abdomen;;an unpleasant sensation in the ureter;discomfort;burning sensation in perineum;men's;0
+cholecystitis;discomfort;;turbid urine color;an unpleasant sensation in the ureter;burning sensation in perineum;pain in the lower abdomen;men's;0
+cholecystitis;an unpleasant sensation in the ureter;pain in the lower abdomen;burning sensation in perineum;turbid urine color;;discomfort;men's;0
+cholecystitis;burning sensation in perineum;pain in the lower abdomen;;an unpleasant sensation in the ureter;turbid urine color;discomfort;men's;0
+cholecystitis;bitter taste in the mouth;Regular belching;temperature rise;Pain in the right upper quadrant;nausea;vomiting;women's;0
+cholecystitis;temperature rise;nausea;vomiting;Pain in the right upper quadrant;Regular belching;bitter taste in the mouth;women's;0
+cholecystitis;temperature rise;Pain in the right upper quadrant;nausea;Regular belching;bitter taste in the mouth;vomiting;women's;0
+cholecystitis;nausea;temperature rise;vomiting;bitter taste in the mouth;Regular belching;Pain in the right upper quadrant;women's;0
+cholecystitis;vomiting;bitter taste in the mouth;Regular belching;Pain in the right upper quadrant;nausea;temperature rise;women's;0
+cholecystitis;Pain in the right upper quadrant;bitter taste in the mouth;Regular belching;nausea;temperature rise;vomiting;women's;0
+cholecystitis;temperature rise;Regular belching;Pain in the right upper quadrant;bitter taste in the mouth;vomiting;nausea;women's;0
+cholecystitis;nausea;bitter taste in the mouth;temperature rise;Pain in the right upper quadrant;vomiting;Regular belching;women's;0
+cystitis;pain when urinating;stands out blood after urinating;fever;frequent urination;;pus from the urethra;women's;3
+cystitis;fever;pain when urinating;stands out blood after urinating;pus from the urethra;frequent urination;;women's;3
+cystitis;;pus from the urethra;pain when urinating;frequent urination;stands out blood after urinating;fever;women's;3
+cystitis;stands out blood after urinating;fever;;pain when urinating;pus from the urethra;frequent urination;women's;3
+cystitis;fever;frequent urination;pain when urinating;pus from the urethra;;stands out blood after urinating;women's;3
+cystitis;frequent urination;;stands out blood after urinating;pain when urinating;pus from the urethra;fever;women's;3
+cystitis;stands out blood after urinating;pus from the urethra;pain when urinating;frequent urination;fever;;women's;3
+cystitis;frequent urination;stands out blood after urinating;;fever;pus from the urethra;pain when urinating;women's;3
+cystitis;;the presence in urine of mucus;urinary incontinence;the presence of blood in the urine;pain in the lumbar region;unpleasant smell of urine;women's;3
+cystitis;the presence of blood in the urine;urinary incontinence;;unpleasant smell of urine;pain in the lumbar region;the presence in urine of mucus;women's;3
+cystitis;the presence of blood in the urine;the presence in urine of mucus;urinary incontinence;unpleasant smell of urine;;pain in the lumbar region;women's;3
+cystitis;;the presence in urine of mucus;the presence of blood in the urine;urinary incontinence;unpleasant smell of urine;pain in the lumbar region;women's;3
+cystitis;the presence in urine of mucus;unpleasant smell of urine;pain in the lumbar region;urinary incontinence;the presence of blood in the urine;;women's;3
+cystitis;the presence in urine of mucus;;the presence of blood in the urine;urinary incontinence;unpleasant smell of urine;pain in the lumbar region;women's;3
+cystitis;pain in the lumbar region;;unpleasant smell of urine;the presence of blood in the urine;the presence in urine of mucus;urinary incontinence;women's;3
+cystitis;the presence of blood in the urine;;unpleasant smell of urine;pain in the lumbar region;the presence in urine of mucus;urinary incontinence;women's;3
+cystitis;vomiting;Temperature rise;;Nausea;chills;weakness;women's;3
+cystitis;vomiting;;Nausea;Temperature rise;chills;weakness;women's;3
+cystitis;;weakness;chills;Temperature rise;Nausea;vomiting;women's;3
+cystitis;vomiting;weakness;Nausea;chills;;Temperature rise;women's;3
+cystitis;;weakness;Nausea;chills;Temperature rise;vomiting;women's;3
+cystitis;weakness;Nausea;Temperature rise;chills;;vomiting;women's;3
+cystitis;;chills;vomiting;weakness;Nausea;Temperature rise;women's;3
+cystitis;chills;;Nausea;Temperature rise;weakness;vomiting;women's;3
+cystitis;unpleasant smell of urine;the presence of blood in the urine;pain in the lumbar region;;the presence in urine of mucus;urinary incontinence;women's;3
+cystitis;the presence of blood in the urine;;the presence in urine of mucus;pain in the lumbar region;unpleasant smell of urine;urinary incontinence;women's;3
+cystitis;the presence in urine of mucus;urinary incontinence;unpleasant smell of urine;pain in the lumbar region;the presence of blood in the urine;;women's;3
+cystitis;pain in the lumbar region;unpleasant smell of urine;;the presence of blood in the urine;the presence in urine of mucus;urinary incontinence;women's;3
+cystitis;pain in the lumbar region;unpleasant smell of urine;the presence of blood in the urine;urinary incontinence;;the presence in urine of mucus;women's;3
+cystitis;the presence in urine of mucus;unpleasant smell of urine;urinary incontinence;;the presence of blood in the urine;pain in the lumbar region;women's;3
+cystitis;;unpleasant smell of urine;the presence of blood in the urine;urinary incontinence;pain in the lumbar region;the presence in urine of mucus;women's;3
+cystitis;urinary incontinence;unpleasant smell of urine;pain in the lumbar region;the presence of blood in the urine;;the presence in urine of mucus;women's;3
+cystitis;frequent urination;pus from the urethra;stands out blood after urinating;pain when urinating;;fever;men's;3
+cystitis;pus from the urethra;frequent urination;;pain when urinating;fever;stands out blood after urinating;men's;3
+cystitis;frequent urination;stands out blood after urinating;fever;;pus from the urethra;pain when urinating;men's;3
+cystitis;pain when urinating;frequent urination;fever;stands out blood after urinating;;pus from the urethra;men's;3
+cystitis;;stands out blood after urinating;pus from the urethra;frequent urination;fever;pain when urinating;men's;3
+cystitis;pus from the urethra;fever;pain when urinating;stands out blood after urinating;frequent urination;;men's;3
+cystitis;;frequent urination;fever;pain when urinating;pus from the urethra;stands out blood after urinating;men's;3
+cystitis;;fever;frequent urination;stands out blood after urinating;pus from the urethra;pain when urinating;men's;3
+cystitis;the presence in urine of mucus;the presence of blood in the urine;urinary incontinence;pain in the lumbar region;unpleasant smell of urine;;women's;3
+cystitis;pain in the lumbar region;the presence in urine of mucus;urinary incontinence;;unpleasant smell of urine;the presence of blood in the urine;women's;3
+cystitis;unpleasant smell of urine;;pain in the lumbar region;urinary incontinence;the presence of blood in the urine;the presence in urine of mucus;women's;3
+cystitis;unpleasant smell of urine;the presence in urine of mucus;pain in the lumbar region;urinary incontinence;the presence of blood in the urine;;women's;3
+cystitis;unpleasant smell of urine;the presence of blood in the urine;;the presence in urine of mucus;pain in the lumbar region;urinary incontinence;women's;3
+cystitis;pain in the lumbar region;;the presence of blood in the urine;urinary incontinence;unpleasant smell of urine;the presence in urine of mucus;women's;3
+cystitis;unpleasant smell of urine;urinary incontinence;the presence in urine of mucus;pain in the lumbar region;;the presence of blood in the urine;women's;3
+cystitis;the presence of blood in the urine;the presence in urine of mucus;urinary incontinence;unpleasant smell of urine;;pain in the lumbar region;women's;3
+cystitis;;Nausea;Temperature rise;vomiting;weakness;chills;men's;3
+cystitis;Nausea;chills;;Temperature rise;vomiting;weakness;men's;3
+cystitis;weakness;vomiting;Nausea;;Temperature rise;chills;men's;3
+cystitis;Nausea;chills;Temperature rise;;vomiting;weakness;men's;3
+cystitis;vomiting;Nausea;;weakness;chills;Temperature rise;men's;3
+cystitis;vomiting;weakness;Nausea;Temperature rise;;chills;men's;3
+cystitis;;vomiting;Nausea;chills;Temperature rise;weakness;men's;3
+cystitis;Temperature rise;;vomiting;Nausea;weakness;chills;men's;3
+pyelonephritis;;Frequent urination;A small swelling;Fever;Dehydration;Palpitations;men's;0
+pyelonephritis;A small swelling;;Dehydration;Fever;Frequent urination;Palpitations;men's;0
+pyelonephritis;;Frequent urination;Palpitations;A small swelling;Dehydration;Fever;men's;0
+pyelonephritis;Fever;A small swelling;Dehydration;Palpitations;Frequent urination;;men's;0
+pyelonephritis;Dehydration;Fever;;A small swelling;Palpitations;Frequent urination;men's;0
+pyelonephritis;Fever;;A small swelling;Dehydration;Palpitations;Frequent urination;men's;0
+pyelonephritis;Dehydration;Palpitations;Fever;Frequent urination;A small swelling;;men's;0
+pyelonephritis;Palpitations;A small swelling;;Frequent urination;Dehydration;Fever;men's;0
+pyelonephritis;burning pain during urination;Nausea;Temperature rise;Dull aching pain in my side;;Dehydration;women's;0
+pyelonephritis;Dehydration;Dull aching pain in my side;Temperature rise;Nausea;;burning pain during urination;women's;0
+pyelonephritis;;burning pain during urination;Dehydration;Nausea;Dull aching pain in my side;Temperature rise;women's;0
+pyelonephritis;Dehydration;Nausea;Dull aching pain in my side;Temperature rise;burning pain during urination;;women's;0
+pyelonephritis;;Dehydration;burning pain during urination;Temperature rise;Dull aching pain in my side;Nausea;women's;0
+pyelonephritis;;Dull aching pain in my side;burning pain during urination;Nausea;Dehydration;Temperature rise;women's;0
+pyelonephritis;Dehydration;Nausea;Temperature rise;Dull aching pain in my side;;burning pain during urination;women's;0
+pyelonephritis;Nausea;Dull aching pain in my side;Dehydration;;burning pain during urination;Temperature rise;women's;0
+pyelonephritis;Faults in work of heart;Pain behind the breastbone;palpitations;Shortness of breath;increase in blood pressure;;men's;0
+pyelonephritis;Shortness of breath;increase in blood pressure;;palpitations;Pain behind the breastbone;Faults in work of heart;men's;0
+pyelonephritis;Pain behind the breastbone;palpitations;;increase in blood pressure;Shortness of breath;Faults in work of heart;men's;0
+pyelonephritis;Faults in work of heart;increase in blood pressure;Shortness of breath;;Pain behind the breastbone;palpitations;men's;0
+pyelonephritis;increase in blood pressure;Pain behind the breastbone;Shortness of breath;;palpitations;Faults in work of heart;men's;0
+pyelonephritis;Shortness of breath;;Faults in work of heart;palpitations;Pain behind the breastbone;increase in blood pressure;men's;0
+pyelonephritis;Shortness of breath;;palpitations;Faults in work of heart;increase in blood pressure;Pain behind the breastbone;men's;0
+pyelonephritis;Shortness of breath;increase in blood pressure;Faults in work of heart;Pain behind the breastbone;;palpitations;men's;0
+pyelonephritis;;Fever;Dehydration;A small swelling;Frequent urination;Palpitations;women's;3
+pyelonephritis;;Fever;Dehydration;Palpitations;A small swelling;Frequent urination;women's;3
+pyelonephritis;Palpitations;Frequent urination;;A small swelling;Fever;Dehydration;women's;3
+pyelonephritis;Palpitations;Fever;A small swelling;Frequent urination;;Dehydration;women's;3
+pyelonephritis;Palpitations;Fever;A small swelling;Frequent urination;;Dehydration;women's;3
+pyelonephritis;Palpitations;;Dehydration;Fever;Frequent urination;A small swelling;women's;3
+pyelonephritis;;Palpitations;A small swelling;Fever;Dehydration;Frequent urination;women's;3
+pyelonephritis;Frequent urination;Dehydration;Palpitations;;Fever;A small swelling;women's;3
+pyelonephritis;Temperature rise;;Dehydration;Nausea;Dull aching pain in my side;burning pain during urination;women's;3
+pyelonephritis;Dehydration;Dull aching pain in my side;;Temperature rise;burning pain during urination;Nausea;women's;3
+pyelonephritis;Nausea;burning pain during urination;;Temperature rise;Dull aching pain in my side;Dehydration;women's;3
+pyelonephritis;;Temperature rise;Dull aching pain in my side;Dehydration;burning pain during urination;Nausea;women's;3
+pyelonephritis;Temperature rise;Dehydration;;Nausea;Dull aching pain in my side;burning pain during urination;women's;3
+pyelonephritis;Dull aching pain in my side;burning pain during urination;Temperature rise;Dehydration;Nausea;;women's;3
+pyelonephritis;Dull aching pain in my side;Dehydration;Temperature rise;;burning pain during urination;Nausea;women's;3
+pyelonephritis;Nausea;Dehydration;burning pain during urination;Temperature rise;;Dull aching pain in my side;women's;3
+pyelonephritis;palpitations;Pain behind the breastbone;;Faults in work of heart;increase in blood pressure;Shortness of breath;women's;3
+pyelonephritis;increase in blood pressure;palpitations;;Faults in work of heart;Shortness of breath;Pain behind the breastbone;women's;3
+pyelonephritis;increase in blood pressure;;Faults in work of heart;Pain behind the breastbone;Shortness of breath;palpitations;women's;3
+pyelonephritis;increase in blood pressure;Faults in work of heart;palpitations;Shortness of breath;;Pain behind the breastbone;women's;3
+pyelonephritis;palpitations;increase in blood pressure;;Faults in work of heart;Shortness of breath;Pain behind the breastbone;women's;3
+pyelonephritis;Shortness of breath;Faults in work of heart;Pain behind the breastbone;;palpitations;increase in blood pressure;women's;3
+pyelonephritis;;palpitations;Shortness of breath;Pain behind the breastbone;increase in blood pressure;Faults in work of heart;women's;3
+pyelonephritis;Pain behind the breastbone;increase in blood pressure;;Shortness of breath;palpitations;Faults in work of heart;women's;3
+pyelonephritis;;A small swelling;Dehydration;Palpitations;Frequent urination;Fever;men's;1
+pyelonephritis;Fever;Palpitations;A small swelling;;Frequent urination;Dehydration;men's;1
+pyelonephritis;A small swelling;Fever;;Dehydration;Frequent urination;Palpitations;men's;1
+pyelonephritis;Palpitations;A small swelling;;Fever;Dehydration;Frequent urination;men's;1
+pyelonephritis;;Palpitations;Frequent urination;Fever;A small swelling;Dehydration;men's;1
+pyelonephritis;Frequent urination;Fever;A small swelling;;Palpitations;Dehydration;men's;1
+pyelonephritis;;Palpitations;A small swelling;Frequent urination;Fever;Dehydration;men's;1
+pyelonephritis;Palpitations;;Dehydration;Frequent urination;A small swelling;Fever;men's;1
+pyelonephritis;Faults in work of heart;increase in blood pressure;Shortness of breath;Pain behind the breastbone;;palpitations;men's;3
+pyelonephritis;Shortness of breath;Faults in work of heart;palpitations;Pain behind the breastbone;;increase in blood pressure;men's;3
+pyelonephritis;Faults in work of heart;increase in blood pressure;Pain behind the breastbone;Shortness of breath;palpitations;;men's;3
+pyelonephritis;Pain behind the breastbone;;Shortness of breath;palpitations;Faults in work of heart;increase in blood pressure;men's;3
+pyelonephritis;Faults in work of heart;Pain behind the breastbone;palpitations;increase in blood pressure;;Shortness of breath;men's;3
+pyelonephritis;;palpitations;Pain behind the breastbone;increase in blood pressure;Shortness of breath;Faults in work of heart;men's;3
+pyelonephritis;increase in blood pressure;Shortness of breath;palpitations;Pain behind the breastbone;;Faults in work of heart;men's;3
+pyelonephritis;Pain behind the breastbone;Faults in work of heart;increase in blood pressure;;Shortness of breath;palpitations;men's;3
+pyelonephritis;Temperature rise;;Dehydration;Dull aching pain in my side;Nausea;burning pain during urination;women's;3
+pyelonephritis;;burning pain during urination;Nausea;Temperature rise;Dehydration;Dull aching pain in my side;women's;3
+pyelonephritis;Dull aching pain in my side;Nausea;Temperature rise;Dehydration;;burning pain during urination;women's;3
+pyelonephritis;Temperature rise;Dull aching pain in my side;;Nausea;Dehydration;burning pain during urination;women's;3
+pyelonephritis;Dull aching pain in my side;Nausea;Dehydration;;burning pain during urination;Temperature rise;women's;3
+pyelonephritis;;burning pain during urination;Dehydration;Nausea;Temperature rise;Dull aching pain in my side;women's;3
+pyelonephritis;Dehydration;burning pain during urination;Nausea;;Dull aching pain in my side;Temperature rise;women's;3
+pyelonephritis;Temperature rise;;burning pain during urination;Dehydration;Nausea;Dull aching pain in my side;women's;3
+pyelonephritis;Dehydration;;Frequent urination;Palpitations;A small swelling;Fever;women's;1
+pyelonephritis;A small swelling;Frequent urination;Palpitations;;Fever;Dehydration;women's;1
+pyelonephritis;;Fever;Palpitations;Frequent urination;A small swelling;Dehydration;women's;1
+pyelonephritis;;Palpitations;Dehydration;Fever;A small swelling;Frequent urination;women's;1
+pyelonephritis;;Dehydration;A small swelling;Palpitations;Frequent urination;Fever;women's;1
+pyelonephritis;Dehydration;Frequent urination;;A small swelling;Palpitations;Fever;women's;1
+pyelonephritis;;Fever;Frequent urination;Palpitations;Dehydration;A small swelling;women's;1
+pyelonephritis;Dehydration;;A small swelling;Fever;Palpitations;Frequent urination;women's;1
+pyelonephritis;Frequent urination;A small swelling;Dehydration;Fever;;Palpitations;women's;1
+pyelonephritis;A small swelling;Fever;Dehydration;Palpitations;;Frequent urination;women's;1
+pyelonephritis;;Fever;Dehydration;A small swelling;Palpitations;Frequent urination;women's;1
+pyelonephritis;Palpitations;A small swelling;Frequent urination;;Dehydration;Fever;women's;1
+pyelonephritis;A small swelling;Dehydration;Fever;;Palpitations;Frequent urination;women's;1
+pyelonephritis;A small swelling;Frequent urination;Palpitations;;Dehydration;Fever;women's;1
+pyelonephritis;A small swelling;Palpitations;Frequent urination;Fever;;Dehydration;women's;1
+pyelonephritis;Palpitations;Fever;Dehydration;Frequent urination;;A small swelling;women's;1
+coronary heart disease;;burning sensation in the chest;dilated pupils;the appearance of pale gray skin tone;Shortness of breath;the pain experienced in the neck;men's;2
+coronary heart disease;;the pain experienced in the neck;dilated pupils;burning sensation in the chest;the appearance of pale gray skin tone;Shortness of breath;men's;2
+coronary heart disease;Shortness of breath;burning sensation in the chest;the pain experienced in the neck;dilated pupils;;the appearance of pale gray skin tone;men's;2
+coronary heart disease;burning sensation in the chest;Shortness of breath;the appearance of pale gray skin tone;the pain experienced in the neck;dilated pupils;;men's;2
+coronary heart disease;the appearance of pale gray skin tone;burning sensation in the chest;Shortness of breath;;dilated pupils;the pain experienced in the neck;men's;2
+coronary heart disease;Shortness of breath;the pain experienced in the neck;burning sensation in the chest;;the appearance of pale gray skin tone;dilated pupils;men's;2
+coronary heart disease;;burning sensation in the chest;dilated pupils;Shortness of breath;the pain experienced in the neck;the appearance of pale gray skin tone;men's;2
+coronary heart disease;the pain experienced in the neck;burning sensation in the chest;;the appearance of pale gray skin tone;Shortness of breath;dilated pupils;men's;2
+coronary heart disease;the inability to bend over;loss of consciousness;Pain behind the breastbone;the pain radiates to the back;;the pain experienced in the shoulder;women's;2
+coronary heart disease;;the inability to bend over;the pain radiates to the back;Pain behind the breastbone;the pain experienced in the shoulder;loss of consciousness;women's;2
+coronary heart disease;the inability to bend over;the pain experienced in the shoulder;;the pain radiates to the back;Pain behind the breastbone;loss of consciousness;women's;2
+coronary heart disease;the pain experienced in the shoulder;;the inability to bend over;the pain radiates to the back;loss of consciousness;Pain behind the breastbone;women's;2
+coronary heart disease;;the inability to bend over;the pain experienced in the shoulder;the pain radiates to the back;loss of consciousness;Pain behind the breastbone;women's;2
+coronary heart disease;loss of consciousness;;Pain behind the breastbone;the inability to bend over;the pain experienced in the shoulder;the pain radiates to the back;women's;2
+coronary heart disease;the pain experienced in the shoulder;;the pain radiates to the back;Pain behind the breastbone;the inability to bend over;loss of consciousness;women's;2
+coronary heart disease;the pain radiates to the back;the pain experienced in the shoulder;loss of consciousness;Pain behind the breastbone;the inability to bend over;;women's;2
+coronary heart disease;lower back pain;the inability to bend over;hip pain;pain in the buttocks;pain when walking;;men's;2
+coronary heart disease;lower back pain;hip pain;pain in the buttocks;the inability to bend over;pain when walking;;men's;2
+coronary heart disease;the inability to bend over;lower back pain;pain in the buttocks;;hip pain;pain when walking;men's;2
+coronary heart disease;pain in the buttocks;lower back pain;;hip pain;the inability to bend over;pain when walking;men's;2
+coronary heart disease;lower back pain;pain when walking;the inability to bend over;pain in the buttocks;;hip pain;men's;2
+coronary heart disease;;lower back pain;the inability to bend over;hip pain;pain in the buttocks;pain when walking;men's;2
+coronary heart disease;pain when walking;lower back pain;the inability to bend over;pain in the buttocks;;hip pain;men's;2
+coronary heart disease;pain when walking;pain in the buttocks;lower back pain;the inability to bend over;hip pain;;men's;2
+coronary heart disease;loss of consciousness;the pain experienced in the shoulder;;Pain behind the breastbone;the pain radiates to the back;the inability to bend over;women's;2
+coronary heart disease;the pain experienced in the shoulder;loss of consciousness;the pain radiates to the back;the inability to bend over;;Pain behind the breastbone;women's;2
+coronary heart disease;the pain experienced in the shoulder;Pain behind the breastbone;loss of consciousness;;the pain radiates to the back;the inability to bend over;women's;2
+coronary heart disease;the pain radiates to the back;;the inability to bend over;the pain experienced in the shoulder;Pain behind the breastbone;loss of consciousness;women's;2
+coronary heart disease;Pain behind the breastbone;the pain radiates to the back;loss of consciousness;the inability to bend over;the pain experienced in the shoulder;;women's;2
+coronary heart disease;the pain radiates to the back;loss of consciousness;Pain behind the breastbone;the pain experienced in the shoulder;;the inability to bend over;women's;2
+coronary heart disease;loss of consciousness;the pain experienced in the shoulder;Pain behind the breastbone;;the pain radiates to the back;the inability to bend over;women's;2
+coronary heart disease;;the pain experienced in the shoulder;loss of consciousness;the pain radiates to the back;Pain behind the breastbone;the inability to bend over;women's;2
+coronary heart disease;Shortness of breath;the pain experienced in the neck;the appearance of pale gray skin tone;dilated pupils;burning sensation in the chest;;men's;2
+coronary heart disease;burning sensation in the chest;dilated pupils;the appearance of pale gray skin tone;the pain experienced in the neck;;Shortness of breath;men's;2
+coronary heart disease;dilated pupils;;the pain experienced in the neck;the appearance of pale gray skin tone;burning sensation in the chest;Shortness of breath;men's;2
+coronary heart disease;dilated pupils;the appearance of pale gray skin tone;the pain experienced in the neck;;Shortness of breath;burning sensation in the chest;men's;2
+coronary heart disease;the appearance of pale gray skin tone;Shortness of breath;dilated pupils;burning sensation in the chest;;the pain experienced in the neck;men's;2
+coronary heart disease;;the appearance of pale gray skin tone;Shortness of breath;dilated pupils;burning sensation in the chest;the pain experienced in the neck;men's;2
+coronary heart disease;;burning sensation in the chest;the appearance of pale gray skin tone;dilated pupils;the pain experienced in the neck;Shortness of breath;men's;2
+coronary heart disease;the pain experienced in the neck;the appearance of pale gray skin tone;dilated pupils;burning sensation in the chest;;Shortness of breath;men's;2
+coronary heart disease;Pain behind the breastbone;loss of consciousness;;the pain experienced in the shoulder;the pain radiates to the back;the inability to bend over;women's;2
+coronary heart disease;the pain experienced in the shoulder;the pain radiates to the back;;loss of consciousness;Pain behind the breastbone;the inability to bend over;women's;2
+coronary heart disease;loss of consciousness;the inability to bend over;the pain experienced in the shoulder;;Pain behind the breastbone;the pain radiates to the back;women's;2
+coronary heart disease;;the pain experienced in the shoulder;the inability to bend over;loss of consciousness;the pain radiates to the back;Pain behind the breastbone;women's;2
+coronary heart disease;Pain behind the breastbone;loss of consciousness;the inability to bend over;;the pain experienced in the shoulder;the pain radiates to the back;women's;2
+coronary heart disease;the pain experienced in the shoulder;loss of consciousness;Pain behind the breastbone;the pain radiates to the back;the inability to bend over;;women's;2
+coronary heart disease;;the pain experienced in the shoulder;the pain radiates to the back;Pain behind the breastbone;the inability to bend over;loss of consciousness;women's;2
+coronary heart disease;the pain radiates to the back;Pain behind the breastbone;;the pain experienced in the shoulder;loss of consciousness;the inability to bend over;women's;2
+coronary heart disease;hip pain;pain when walking;;pain in the buttocks;lower back pain;the inability to bend over;men's;2
+coronary heart disease;pain in the buttocks;hip pain;lower back pain;;pain when walking;the inability to bend over;men's;2
+coronary heart disease;lower back pain;the inability to bend over;pain when walking;hip pain;pain in the buttocks;;men's;2
+coronary heart disease;hip pain;the inability to bend over;pain in the buttocks;;pain when walking;lower back pain;men's;2
+coronary heart disease;hip pain;pain when walking;lower back pain;pain in the buttocks;the inability to bend over;;men's;2
+coronary heart disease;the inability to bend over;hip pain;pain when walking;lower back pain;pain in the buttocks;;men's;2
+coronary heart disease;pain in the buttocks;;hip pain;lower back pain;the inability to bend over;pain when walking;men's;2
+coronary heart disease;pain in the buttocks;pain when walking;lower back pain;;the inability to bend over;hip pain;men's;2
+coronary heart disease;the inability to bend over;the pain radiates to the back;Pain behind the breastbone;;loss of consciousness;the pain experienced in the shoulder;women's;2
+coronary heart disease;loss of consciousness;the pain experienced in the shoulder;;the pain radiates to the back;the inability to bend over;Pain behind the breastbone;women's;2
+coronary heart disease;loss of consciousness;;Pain behind the breastbone;the inability to bend over;the pain radiates to the back;the pain experienced in the shoulder;women's;2
+coronary heart disease;the pain radiates to the back;Pain behind the breastbone;the inability to bend over;loss of consciousness;the pain experienced in the shoulder;;women's;2
+coronary heart disease;the pain experienced in the shoulder;the pain radiates to the back;;loss of consciousness;Pain behind the breastbone;the inability to bend over;women's;2
+coronary heart disease;Pain behind the breastbone;loss of consciousness;the pain radiates to the back;;the inability to bend over;the pain experienced in the shoulder;women's;2
+coronary heart disease;Pain behind the breastbone;loss of consciousness;the pain radiates to the back;;the pain experienced in the shoulder;the inability to bend over;women's;2
+coronary heart disease;Pain behind the breastbone;the pain radiates to the back;the pain experienced in the shoulder;loss of consciousness;the inability to bend over;;women's;2
+sciatica;pain when walking;;violation of skin sensitivity at the site of lesion;the limitation in the back;sharp back pain;increased pain during movement;men's;3
+sciatica;violation of skin sensitivity at the site of lesion;;sharp back pain;pain when walking;the limitation in the back;increased pain during movement;men's;3
+sciatica;the limitation in the back;sharp back pain;pain when walking;violation of skin sensitivity at the site of lesion;;increased pain during movement;men's;3
+sciatica;;violation of skin sensitivity at the site of lesion;increased pain during movement;the limitation in the back;pain when walking;sharp back pain;men's;3
+sciatica;;increased pain during movement;pain when walking;violation of skin sensitivity at the site of lesion;sharp back pain;the limitation in the back;men's;3
+sciatica;the limitation in the back;violation of skin sensitivity at the site of lesion;increased pain during movement;pain when walking;sharp back pain;;men's;3
+sciatica;violation of skin sensitivity at the site of lesion;;the limitation in the back;pain when walking;increased pain during movement;sharp back pain;men's;3
+sciatica;sharp back pain;;pain when walking;increased pain during movement;violation of skin sensitivity at the site of lesion;the limitation in the back;men's;3
+sciatica;pain in the buttocks;violation of the sensitivity;the inability to bend over;a feeling of numbness;;muscle weakness;women's;2
+sciatica;the inability to bend over;;violation of the sensitivity;muscle weakness;pain in the buttocks;a feeling of numbness;women's;2
+sciatica;the inability to bend over;a feeling of numbness;pain in the buttocks;violation of the sensitivity;muscle weakness;;women's;2
+sciatica;;pain in the buttocks;the inability to bend over;a feeling of numbness;violation of the sensitivity;muscle weakness;women's;2
+sciatica;violation of the sensitivity;pain in the buttocks;muscle weakness;the inability to bend over;;a feeling of numbness;women's;2
+sciatica;violation of the sensitivity;a feeling of numbness;pain in the buttocks;the inability to bend over;muscle weakness;;women's;2
+sciatica;the inability to bend over;a feeling of numbness;pain in the buttocks;muscle weakness;;violation of the sensitivity;women's;2
+sciatica;violation of the sensitivity;pain in the buttocks;muscle weakness;;the inability to bend over;a feeling of numbness;women's;2
+sciatica;the limitation in the back;sharp back pain;violation of skin sensitivity at the site of lesion;;pain when walking;increased pain during movement;men's;3
+sciatica;increased pain during movement;;pain when walking;the limitation in the back;violation of skin sensitivity at the site of lesion;sharp back pain;men's;3
+sciatica;violation of skin sensitivity at the site of lesion;sharp back pain;the limitation in the back;pain when walking;increased pain during movement;;men's;3
+sciatica;increased pain during movement;pain when walking;the limitation in the back;sharp back pain;;violation of skin sensitivity at the site of lesion;men's;3
+sciatica;the limitation in the back;;sharp back pain;pain when walking;violation of skin sensitivity at the site of lesion;increased pain during movement;men's;3
+sciatica;sharp back pain;increased pain during movement;violation of skin sensitivity at the site of lesion;;pain when walking;the limitation in the back;men's;3
+sciatica;violation of skin sensitivity at the site of lesion;the limitation in the back;sharp back pain;;pain when walking;increased pain during movement;men's;3
+sciatica;pain when walking;;the limitation in the back;violation of skin sensitivity at the site of lesion;sharp back pain;increased pain during movement;men's;3
+sciatica;severe pain;numbness in the groin area;numbness of the feet;urinary incontinence;;shooting pain after sudden movements;men's;2
+sciatica;numbness of the feet;urinary incontinence;numbness in the groin area;shooting pain after sudden movements;;severe pain;men's;2
+sciatica;shooting pain after sudden movements;severe pain;numbness of the feet;urinary incontinence;;numbness in the groin area;men's;2
+sciatica;severe pain;numbness in the groin area;numbness of the feet;shooting pain after sudden movements;;urinary incontinence;men's;2
+sciatica;shooting pain after sudden movements;numbness of the feet;urinary incontinence;numbness in the groin area;;severe pain;men's;2
+sciatica;shooting pain after sudden movements;numbness of the feet;numbness in the groin area;;urinary incontinence;severe pain;men's;2
+sciatica;shooting pain after sudden movements;numbness of the feet;;severe pain;urinary incontinence;numbness in the groin area;men's;2
+sciatica;urinary incontinence;numbness of the feet;numbness in the groin area;severe pain;shooting pain after sudden movements;;men's;2
+sciatica;pain when walking;sharp back pain;;violation of skin sensitivity at the site of lesion;the limitation in the back;increased pain during movement;men's;3
+sciatica;pain when walking;increased pain during movement;;the limitation in the back;sharp back pain;violation of skin sensitivity at the site of lesion;men's;3
+sciatica;;increased pain during movement;sharp back pain;violation of skin sensitivity at the site of lesion;pain when walking;the limitation in the back;men's;3
+sciatica;violation of skin sensitivity at the site of lesion;increased pain during movement;pain when walking;;the limitation in the back;sharp back pain;men's;3
+sciatica;violation of skin sensitivity at the site of lesion;the limitation in the back;increased pain during movement;;pain when walking;sharp back pain;men's;3
+sciatica;increased pain during movement;sharp back pain;violation of skin sensitivity at the site of lesion;;the limitation in the back;pain when walking;men's;3
+sciatica;violation of skin sensitivity at the site of lesion;;increased pain during movement;sharp back pain;pain when walking;the limitation in the back;men's;3
+sciatica;sharp back pain;;the limitation in the back;pain when walking;increased pain during movement;violation of skin sensitivity at the site of lesion;men's;3
+sciatica;pain in the buttocks;violation of the sensitivity;the inability to bend over;muscle weakness;a feeling of numbness;;women's;2
+sciatica;pain in the buttocks;violation of the sensitivity;a feeling of numbness;;muscle weakness;the inability to bend over;women's;2
+sciatica;;the inability to bend over;pain in the buttocks;a feeling of numbness;muscle weakness;violation of the sensitivity;women's;2
+sciatica;pain in the buttocks;muscle weakness;;the inability to bend over;a feeling of numbness;violation of the sensitivity;women's;2
+sciatica;the inability to bend over;;a feeling of numbness;pain in the buttocks;violation of the sensitivity;muscle weakness;women's;2
+sciatica;muscle weakness;violation of the sensitivity;;a feeling of numbness;the inability to bend over;pain in the buttocks;women's;2
+sciatica;violation of the sensitivity;pain in the buttocks;the inability to bend over;a feeling of numbness;muscle weakness;;women's;2
+sciatica;a feeling of numbness;muscle weakness;the inability to bend over;violation of the sensitivity;pain in the buttocks;;women's;2
+sciatica;pain when walking;;the limitation in the back;sharp back pain;increased pain during movement;violation of skin sensitivity at the site of lesion;men's;3
+sciatica;increased pain during movement;violation of skin sensitivity at the site of lesion;sharp back pain;pain when walking;;the limitation in the back;men's;3
+sciatica;violation of skin sensitivity at the site of lesion;sharp back pain;;the limitation in the back;pain when walking;increased pain during movement;men's;3
+sciatica;pain when walking;violation of skin sensitivity at the site of lesion;sharp back pain;;increased pain during movement;the limitation in the back;men's;3
+sciatica;increased pain during movement;sharp back pain;pain when walking;the limitation in the back;violation of skin sensitivity at the site of lesion;;men's;3
+sciatica;the limitation in the back;pain when walking;;sharp back pain;violation of skin sensitivity at the site of lesion;increased pain during movement;men's;3
+sciatica;sharp back pain;pain when walking;the limitation in the back;increased pain during movement;;violation of skin sensitivity at the site of lesion;men's;3
+sciatica;violation of skin sensitivity at the site of lesion;pain when walking;increased pain during movement;sharp back pain;the limitation in the back;;men's;3
+sciatica;numbness of the feet;urinary incontinence;numbness in the groin area;severe pain;shooting pain after sudden movements;;men's;2
+sciatica;shooting pain after sudden movements;severe pain;numbness in the groin area;urinary incontinence;numbness of the feet;;men's;2
+sciatica;;urinary incontinence;numbness of the feet;shooting pain after sudden movements;severe pain;numbness in the groin area;men's;2
+sciatica;severe pain;urinary incontinence;numbness of the feet;shooting pain after sudden movements;numbness in the groin area;;men's;2
+sciatica;severe pain;urinary incontinence;shooting pain after sudden movements;;numbness of the feet;numbness in the groin area;men's;2
+sciatica;severe pain;shooting pain after sudden movements;urinary incontinence;numbness in the groin area;;numbness of the feet;men's;2
+sciatica;numbness of the feet;numbness in the groin area;urinary incontinence;;shooting pain after sudden movements;severe pain;men's;2
+sciatica;numbness in the groin area;severe pain;;shooting pain after sudden movements;numbness of the feet;urinary incontinence;men's;2
+sciatica;the limitation in the back;violation of skin sensitivity at the site of lesion;;increased pain during movement;sharp back pain;pain when walking;women's;2
+sciatica;sharp back pain;pain when walking;increased pain during movement;;the limitation in the back;violation of skin sensitivity at the site of lesion;women's;2
+sciatica;the limitation in the back;pain when walking;violation of skin sensitivity at the site of lesion;;sharp back pain;increased pain during movement;women's;2
+sciatica;pain when walking;sharp back pain;violation of skin sensitivity at the site of lesion;;increased pain during movement;the limitation in the back;women's;2
+sciatica;increased pain during movement;pain when walking;sharp back pain;;the limitation in the back;violation of skin sensitivity at the site of lesion;women's;2
+sciatica;the limitation in the back;;increased pain during movement;violation of skin sensitivity at the site of lesion;pain when walking;sharp back pain;women's;2
+sciatica;the limitation in the back;sharp back pain;;pain when walking;increased pain during movement;violation of skin sensitivity at the site of lesion;women's;2
+sciatica;pain when walking;violation of skin sensitivity at the site of lesion;increased pain during movement;;sharp back pain;the limitation in the back;women's;2

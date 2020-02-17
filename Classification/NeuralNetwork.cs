@@ -36,7 +36,9 @@ namespace Classification
                 .Append(_mlContext.Transforms.Text.FeaturizeText(inputColumnName: "Sym4", outputColumnName: "Sym4Featurized"))
                 .Append(_mlContext.Transforms.Text.FeaturizeText(inputColumnName: "Sym5", outputColumnName: "Sym5Featurized"))
                 .Append(_mlContext.Transforms.Text.FeaturizeText(inputColumnName: "Sym6", outputColumnName: "Sym6Featurized"))
-                .Append(_mlContext.Transforms.Concatenate("Features", "Sym1Featurized", "Sym2Featurized", "Sym3Featurized", "Sym4Featurized", "Sym5Featurized", "Sym6Featurized"))
+                .Append(_mlContext.Transforms.Text.FeaturizeText(inputColumnName: "Sex", outputColumnName: "SexFeaturized"))
+                .Append(_mlContext.Transforms.Text.FeaturizeText(inputColumnName: "Age", outputColumnName: "AgeFeaturized"))
+                .Append(_mlContext.Transforms.Concatenate("Features", "Sym1Featurized", "Sym2Featurized", "Sym3Featurized", "Sym4Featurized", "Sym5Featurized", "Sym6Featurized", "SexFeaturized", "AgeFeaturized"))
                 .AppendCacheCheckpoint(_mlContext);
 
             return pipeline;
@@ -78,6 +80,7 @@ namespace Classification
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             Encoding.GetEncoding(1251);
 
+            _mlContext = new MLContext(seed: 0);
             ITransformer loadedModel = _mlContext.Model.Load(_modelPath, out var modelInputSchema);
             _predEngine = _mlContext.Model.CreatePredictionEngine<Diseases, PredictionDiseases>(loadedModel);
 
