@@ -1,5 +1,6 @@
 ﻿using Microsoft.ML;
 using Microsoft.ML.Data;
+using Microsoft.ML.Trainers;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -30,15 +31,10 @@ namespace Classification
         public static IEstimator<ITransformer> ProcessData()
         {
             var pipeline = _mlContext.Transforms.Conversion.MapValueToKey(inputColumnName: "Disease", outputColumnName: "Label")
-                .Append(_mlContext.Transforms.Text.FeaturizeText(inputColumnName: "Sym1", outputColumnName: "Sym1Featurized"))
-                .Append(_mlContext.Transforms.Text.FeaturizeText(inputColumnName: "Sym2", outputColumnName: "Sym2Featurized"))
-                .Append(_mlContext.Transforms.Text.FeaturizeText(inputColumnName: "Sym3", outputColumnName: "Sym3Featurized"))
-                .Append(_mlContext.Transforms.Text.FeaturizeText(inputColumnName: "Sym4", outputColumnName: "Sym4Featurized"))
-                .Append(_mlContext.Transforms.Text.FeaturizeText(inputColumnName: "Sym5", outputColumnName: "Sym5Featurized"))
-                .Append(_mlContext.Transforms.Text.FeaturizeText(inputColumnName: "Sym6", outputColumnName: "Sym6Featurized"))
-                .Append(_mlContext.Transforms.Text.FeaturizeText(inputColumnName: "Sex", outputColumnName: "SexFeaturized"))
-                .Append(_mlContext.Transforms.Text.FeaturizeText(inputColumnName: "Age", outputColumnName: "AgeFeaturized"))
-                .Append(_mlContext.Transforms.Concatenate("Features", "Sym1Featurized", "Sym2Featurized", "Sym3Featurized", "Sym4Featurized", "Sym5Featurized", "Sym6Featurized", "SexFeaturized", "AgeFeaturized"))
+                .Append(_mlContext.Transforms.Categorical.OneHotEncoding(new[] { new InputOutputColumnPair("Sex", "Sex") }))
+                .Append(_mlContext.Transforms.Categorical.OneHotHashEncoding(new[] { new InputOutputColumnPair("Sym1", "Sym1"), new InputOutputColumnPair("Sym2", "Sym2"), new InputOutputColumnPair("Sym3", "Sym3"), new InputOutputColumnPair("Sym4", "Sym4"), new InputOutputColumnPair("Sym5", "Sym5"), new InputOutputColumnPair("Sym6", "Sym6") }))
+                .Append(_mlContext.Transforms.Concatenate("Features", new[] { "Sex", "Sym1", "Sym2", "Sym3", "Sym4", "Sym5", "Sym6", "Age" }))
+                .Append(_mlContext.Transforms.NormalizeMinMax("Features", "Features"))
                 .AppendCacheCheckpoint(_mlContext);
 
             return pipeline;
@@ -53,7 +49,6 @@ namespace Classification
             testData = dataSplit.TestSet;
 
             _trainedModel = trainingPipeline.Fit(trainData);
-
             _predEngine = _mlContext.Model.CreatePredictionEngine<Diseases, PredictionDiseases>(_trainedModel);
 
             return trainingPipeline;
@@ -87,8 +82,6 @@ namespace Classification
             var prediction = _predEngine.Predict(diseases);
 
             return GetScoresWithLabelsSorted(_predEngine.OutputSchema, "Score", prediction.Score)
-                .Take(10)
-                .Where(x => x.Value >= 0.2)
                 .ToDictionary(i => i.Key, i => i.Value);
         }
         private static void SaveModelAsFile(MLContext mlContext, DataViewSchema trainingDataViewSchema, ITransformer trainedModel)

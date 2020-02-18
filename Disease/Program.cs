@@ -39,7 +39,7 @@ namespace Disease
                 Sym5 = translate.TranslateText("Обезвоживание", "ru-en"),
                 Sym6 = translate.TranslateText("Лихорадка", "ru-en"),
                 Sex = translate.TranslateText("мужской", "ru-en"),
-                Age = "3"
+                Age = 3
             };
 
             Dictionary<string, float> result = NeuralNetwork.PredictDisease(dis);

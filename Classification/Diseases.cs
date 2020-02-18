@@ -29,6 +29,6 @@ namespace Classification
         public string Sex { get; set; }
 
         [LoadColumn(8)]
-        public string Age { get; set; }
+        public float Age { get; set; }
     }
 }
