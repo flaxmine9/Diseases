@@ -32,9 +32,10 @@ namespace Classification
         {
             var pipeline = _mlContext.Transforms.Conversion.MapValueToKey(inputColumnName: "Disease", outputColumnName: "Label")
                 .Append(_mlContext.Transforms.Categorical.OneHotEncoding(new[] { new InputOutputColumnPair("Sex", "Sex") }))
+                .Append(_mlContext.Transforms.NormalizeMinMax(new[] { new InputOutputColumnPair("Age", "Age") }))
                 .Append(_mlContext.Transforms.Categorical.OneHotHashEncoding(new[] { new InputOutputColumnPair("Sym1", "Sym1"), new InputOutputColumnPair("Sym2", "Sym2"), new InputOutputColumnPair("Sym3", "Sym3"), new InputOutputColumnPair("Sym4", "Sym4"), new InputOutputColumnPair("Sym5", "Sym5"), new InputOutputColumnPair("Sym6", "Sym6") }))
                 .Append(_mlContext.Transforms.Concatenate("Features", new[] { "Sex", "Sym1", "Sym2", "Sym3", "Sym4", "Sym5", "Sym6", "Age" }))
-                .Append(_mlContext.Transforms.NormalizeMinMax("Features", "Features"))
+                .Append(_mlContext.Transforms.NormalizeMeanVariance("Features", "Features"))
                 .AppendCacheCheckpoint(_mlContext);
 
             return pipeline;

@@ -55,7 +55,7 @@ namespace CSV
                     list[i].Sym6
                 };
 
-                for (int j = 0; j < 8; j++)
+                for (int j = 0; j < 9; j++)
                 {
                     var resultShuffle = Shuffle<string>(lst.Skip(1).ToList(), random);
                     resultShuffle.Insert(0, list[i].Disease);

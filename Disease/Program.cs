@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using Yandex;
+using System.Linq;
 
 namespace Disease
 {
@@ -17,17 +18,17 @@ namespace Disease
             Csv csv = new Csv();
             Translate translate = new Translate();
 
-            //var csvDataSet = csv.ReadCsv(pathDataSetRussian);
+            //var csvDataSet = csv.ReadCsv(trainPath);
 
             //var translatedText = translate.TranslateDataSet(csvDataSet);
-            //var resultShuffle = csv.GetShuffleSymptoms(translatedText);
+            //var resultShuffle = csv.GetShuffleSymptoms(csvDataSet);
 
-            //csv.Write(@"C:\Users\Dima\Desktop\TrainDataSet2.csv", resultShuffle);
+            //csv.Write(@"C:\Users\Dima\Desktop\TrainDataSet4.csv", resultShuffle);
 
             IDataView dataSet = NeuralNetwork.LoadData(trainPath);
             IEstimator<ITransformer> pipeLine = NeuralNetwork.ProcessData();
 
-            NeuralNetwork.BuildAndTrainModel(dataSet, pipeLine, 0.2);
+            NeuralNetwork.BuildAndTrainModel(dataSet, pipeLine, 0.3);
             NeuralNetwork.Evaluate(dataSet.Schema);
 
             Diseases dis = new Diseases()
